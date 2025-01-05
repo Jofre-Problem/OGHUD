@@ -102,7 +102,12 @@
 		"command"		"find_game"
 		"OnlyInGame"	"1"
 	}
-	
+	"cgatGameDummy_IG"
+	{
+		"label"			"FInd Servers"
+		"command"		"toggle_chat"
+		"OnlyInGame"	"1"
+	}	
 	"FindGameDummy_IG"
 	{
 		"label"			"FInd Servers"

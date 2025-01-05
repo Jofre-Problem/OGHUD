@@ -20,7 +20,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Surface"
+				"name"			"Surface-medium"
 				"tall"			"14"
 				"additive"		"0"
 				"antialias"		"1"
@@ -30,7 +30,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Surface"
+				"name"			"Surface-medium"
 				"tall"			"14"
 				"additive"		"0"
 				"antialias"		"1"
@@ -41,7 +41,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Surface"
+				"name"			"Surface-medium"
 				"tall"			"18"
 				"additive"		"0"
 				"antialias"		"1"
@@ -51,7 +51,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Surface"
+				"name"			"Surface-medium"
 				"tall"			"18"
 				"additive"		"0"
 				"antialias"		"1"
@@ -62,7 +62,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Surface"
+				"name"			"Surface-medium"
 				"tall"			"24"
 				"additive"		"0"
 				"antialias"		"1"
@@ -72,7 +72,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Surface"
+				"name"			"Surface-medium"
 				"tall"			"24"
 				"additive"		"0"
 				"antialias"		"1"
@@ -584,7 +584,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Cerbetica_edited"
+				"name"		"Cerbetica"
 				"tall"		"8"
 				"additive"	"0"
 				"antialias" "1"
@@ -840,13 +840,13 @@ Scheme
 		"7" "resource/ocra.ttf"
 		"8"
 		{
-			"font" "resource/fonts/Surface.otf"
-			"name" "Surface"
+			"font" "resource/fonts/Surface_medium.otf"
+			"name" "Surface-medium"
 		}
 		"9"
 		{
-			"font" "resource/fonts/Cerbetica_edited.ttf"
-			"name" "Cerbetica_edited"
+			"font" "resource/fonts/Cerbetica.ttf"
+			"name" "Cerbetica"
 		}
 		"10"
 		{

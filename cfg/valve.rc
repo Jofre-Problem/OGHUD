@@ -5,3 +5,5 @@ stuffcmds                        // stuff command line statements
 startupmenu                        // open initial menu screen
 sv_unlockedchapters 99            // allow backgrounds to display randomly by unlocking all chapters
 wait 5; showconsole; incrementvar mat_aaquality -100 100 1; hideconsole
+
+exec oghud.cfg

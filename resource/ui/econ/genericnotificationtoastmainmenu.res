@@ -75,12 +75,12 @@
 		{
 			"fgcolor"			"BrightYellow"
 			"fgcolor_override"	"BrightYellow"
-			"font"				"DefaultVerySmall" //StorePromotionsTitle
+			"font"				"hudfontsmallest" //StorePromotionsTitle
 		}
 		"xpos"			"7"
 		"ypos"			"7"
 		"zpos"			"2"
-		"wide"			"80"
+		"wide"			"140"
 		"tall"			"38"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -89,6 +89,6 @@
 		"wrap"			"1"
 		"labelText"		"%text%"
 		"textAlignment"	"West"
-		"font"			"DefaultVerySmall"
+		"font"			"hudfontsmallest"
 	}
 }

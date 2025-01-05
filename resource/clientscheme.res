@@ -3797,7 +3797,7 @@ Scheme
 			"draw_corner_height" 	"5"	
 		}
 
-		Econ.Button.Border.Default
+		Econ.Button.Border.Default.HL1
 		{
 			"inset" "0 0 0 0"
 			Left
@@ -3836,7 +3836,7 @@ Scheme
 				}
 			}
 		}
-		Econ.Button.Border.Armed
+		Econ.Button.Border.Armed.HL1
 		{
 			"inset" "0 0 0 0"
 			Left
@@ -3879,24 +3879,24 @@ Scheme
 		LoadoutItemMouseOverBorder
 		{
 			"bordertype"			"scalable_image"
-			"image"					"replay/thumbnails/econ/item_hover"
+		//	"image"					"replay/thumbnails/econ/item_hover"
 			
-			"src_corner_height"		"2"				// pixels inside the image
-			"src_corner_width"		"2"
-			"draw_corner_width"		"1"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"1"	
+		//	"src_corner_height"		"2"				// pixels inside the image
+		//	"src_corner_width"		"2"
+		//	"draw_corner_width"		"1"				// screen size of the corners ( and sides ), proportional
+		//	"draw_corner_height" 	"1"	
 		}
 		LoadoutItemPopupBorder
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			
-			"image"					"replay/thumbnails/econ/item_tooltip"
+		//	"image"					"replay/thumbnails/econ/item_tooltip"
 			
-			"src_corner_height"		"2"				// pixels inside the image
-			"src_corner_width"		"2"
-			"draw_corner_width"		"1"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"1"	
+		//	"src_corner_height"		"2"				// pixels inside the image
+		//	"src_corner_width"		"2"
+		//	"draw_corner_width"		"1"				// screen size of the corners ( and sides ), proportional
+		//	"draw_corner_height" 	"1"	
 		}
 		
 		BackpackItemGrayedOut

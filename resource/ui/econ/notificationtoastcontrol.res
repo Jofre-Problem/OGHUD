@@ -7,7 +7,7 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"1"
-		"wide"			"112"
+		"wide"			"193"	// pin 1
 		"tall"			"69"
 		"visible"		"1"
 		"enabled"		"1"
@@ -78,7 +78,7 @@
 		}
 		"ypos"			"40"
 		"zpos"			"10"
-		"wide"			"102"
+		"wide"			"182"	// doesnt accept "+"" values
 		"tall"			"20"
 		"autoResize"	"0"
 		"pinCorner"		"0"

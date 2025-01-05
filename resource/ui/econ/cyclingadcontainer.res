@@ -8,27 +8,30 @@
 		"ypos"		"cs-0.5"
 		"zpos"		"2"
 		"wide"		"10"
-		"tall"		"25"
+		"tall"		"50"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"		"0"
 		"labelText"			"<"
-		"bgcolor_override"	"0 0 0 220"
+		"bgcolor_override"	"0 0 0 0"
 		"fgcolor"		"White"
 		"font"			"DefaultVerySmall"
 		"textAlignment"	"center"
-
+		"border"	"SRCBorderConvex"
 		"proportionaltoparent"	"1"
 		"paintbackground"	"1"
 		"command"	"prev"
 		"actionsignallevel" "2"
+			"border_default"		"SRCBorderconcave"
 
+			"proportionaltoparent"	"1"
+			
+			"defaultfgColor_override"	"HudWhite"			
+			"armedfgColor_override"	"HudWhite"		
 		"defaultBgColor_override"	"0 0 0 150"
 		"armedBgColor_override"		"Orange"
-
-		"armedFgColor_override"		"TanLight"
 
 		"sound_armed"		"ui/item_info_mouseover.wav"
 		"sound_depressed"	"UI/buttonclick.wav"
@@ -43,7 +46,7 @@
 		"ypos"		"cs-0.5"
 		"zpos"		"2"
 		"wide"		"10"
-		"tall"		"25"
+		"tall"		"50"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -59,12 +62,15 @@
 		"paintbackground"	"1"
 		"command"	"next"
 		"actionsignallevel" "2"
+			"border_default"		"SRCBorderConvex"
 
+			"proportionaltoparent"	"1"
+			
+			"defaultfgColor_override"	"HudWhite"			
+			"armedfgColor_override"	"HudWhite"		
 		"defaultBgColor_override"	"0 0 0 150"
 		"armedBgColor_override"		"Orange"
 
-
-		"armedFgColor_override"		"TanLight"
 
 		"sound_armed"		"ui/item_info_mouseover.wav"
 		"sound_depressed"	"UI/buttonclick.wav"
@@ -93,7 +99,7 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"wide"			"f0"
-		"tall"			"f0"
+		"tall"			"0"
 		"zpos"			"5"
 		"proportionaltoparent"	"1"
 		"border"		"InnerShadowBorder"

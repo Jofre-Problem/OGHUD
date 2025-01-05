@@ -1,5 +1,5 @@
 #base "mainmenuoverride_preload.res"
-
+#base "../../../../cfg/og_hud_custom_menu.txt"
 "Resource/UI/MainMenuOverride.res"
 {
 	MainMenuOverride
@@ -169,9 +169,9 @@
 		"fieldName"		"Logo"
 		"xpos"			"15"
 		"ypos"			"192"
-		"zpos"			"50"
-		"wide"			"183/f0"
-		"tall"			"46/40"
+		"zpos"			"-150"
+		"wide"			"183"
+		"tall"			"46"
     "autoResize"	"0"
 		"visible"		"1"
 		"enabled"		"1"
@@ -404,7 +404,7 @@
 		"xpos"			"c80"
 		"ypos"			"c-14"
 		"zpos"			"10"
-		"wide"			"88"
+		"wide"			"120"
 		"tall"			"14"
 		"autoResize"	"0"
 		"pinCorner"		"3"
@@ -434,7 +434,7 @@
 			"font"			"MenuButton"
 			"labelText"		"%noticount%"
 			"textAlignment"	"west"
-			"xpos"			"74"
+			"xpos"			"90"
 			"ypos"			"0"
 			"zpos"			"4"
 			"wide"			"14"
@@ -453,7 +453,7 @@
 			"xpos"			"0"
 			"ypos"			"0"
 			"zpos"			"1"
-			"wide"			"74"
+			"wide"			"f0"
 			"tall"			"14"
 			"autoResize"	"0"
 			"pinCorner"		"3"
@@ -1162,7 +1162,40 @@
 			"defaultfgColor_override"	"HudWhite"			
 			"armedfgColor_override"	"HudWhite"			
 		}
-		
+		"Customization"
+		{
+			"ControlName"	"CExButton"
+			"fieldName"		"Customization"
+			"xpos"			"0"
+			"ypos"			"7"
+			"zpos"			"1"
+			"wide"			"80"
+			"tall"			"11"
+			"autoResize"	"0"
+			"pinCorner"		"3"
+			"visible"		"1"
+			"enabled"		"1"
+			"tabPosition"	"0"
+			"labelText"		"Customization"
+			"font"			"SRCLabel"
+			"textAlignment"	"west"
+			"textinsetx"	"6"
+			"dulltext"		"0"
+			"brighttext"	"0"
+			"default"		"1"
+			"Command"		"engine custom_menu_on; dev"
+			"paintbackground"	"0"
+			"pin_to_sibling"	"StoreButton"	
+			"pin_to_sibling_corner"	"6"	
+			"pin_corner_to_sibling"	"4"	
+			"actionsignallevel"	"2"
+			"border_default"		"SRCBorderConvex"
+
+			"proportionaltoparent"	"1"
+			
+			"defaultfgColor_override"	"HudWhite"			
+			"armedfgColor_override"	"HudWhite"			
+		}		
 		"ContractButton"
 		{
 			"ControlName"	"CExButton"
@@ -1654,7 +1687,7 @@
 			"fieldName"		"Notifications_Scroller"
 			"xpos"			"8"
 			"ypos"			"25"
-			"wide"			"210"
+			"wide"			"f0"
 			"tall"			"135"
 			"PaintBackgroundType"	"2"
 			"fgcolor_override"	"117 107 94 255"
@@ -2009,7 +2042,7 @@
 		"xpos"			"50"
 		"ypos"			"10"
 		"zpos"			"1"
-		"wide"			"307"
+		"wide"			"400"
 		"tall"			"175"
 		"visible"		"0"
 		
@@ -2031,7 +2064,62 @@
 			"show_model"	"0"
 			"show_type"		"1"
 		}
-		
+		"ChatBorder"
+		{
+			"ControlName"	"EditablePanel"
+			"fieldname"		"ChatBorder"
+			"xpos"			"310"
+			"ypos"			"0"
+			"zpos"			"5"
+			"wide"			"46"
+			"tall"			"50"
+			"visible"		"0"
+			"paintbackground"	"1"
+			"paintbackgroundtype"	"2"
+			// "texture2"		"vgui/replay/thumbnails/close"
+			"bgcolor_override"	"160 160 160 128"
+			"proportionaltoparent"	"1"
+
+			"TitleLabel"
+			{
+				"ControlName"	"CExLabel"
+				"fieldName"		"TitleLabel"
+				"font"			"SRCTitle"
+				"labelText"		"Chat"
+				"textAlignment"	"west"
+				"xpos"			"0"
+				"ypos"			"0"
+				"wide"			"f0"
+				"tall"			"14"
+				"autoResize"	"0"
+				"pinCorner"		"0"
+				"visible"		"1"
+				"enabled"		"1"
+				"textinsetx"	"16"
+				"fgcolor_override"	"HudWhite"
+				"proportionaltoparent"	"1"
+			}
+			"InnerShadow"
+			{
+				"ControlName"	"EditablePanel"
+				"fieldname"		"InnerShadow"
+				"xpos"			"cs-0.5"
+				"ypos"			"17"
+				"zpos"			"0"
+				"wide"			"f14"
+				"tall"			"f23"
+				"visible"		"1"	
+				"proportionaltoparent"	"1"
+				"mouseinputenabled"	"0"
+
+				"paintborder"	"1"
+				"border"		"SRCBorderConcave"
+				
+				"PaintBackground"	"1"
+				"PaintBackgroundType"	"0"
+				"bgcolor_override"	"0 0 0 128"
+			}			
+		}		
 		"PartyBorder"
 		{
 			"ControlName"	"EditablePanel"
@@ -2776,9 +2864,72 @@
 			"image" "glyph_store"
 		}		
 	}
-
+	"ChatPin"
+	{
+		"ControlName"    "Panel"
+		
+		"ypos" "270"	// higher ypos - lower goes
+		"xpos" 107 // unsure about the xpos	
+	}
+	"partychat"
+	{
+		"pin_to_sibling"    "ChatPin"
+	}
+	"chatlog"
+	{
+	//	"pin_to_sibling"    "ChatlogPin"
+	}
 	"MMDashboard"
 	{
+	
+		"ToggleChatButton"		// impossible?
+		{
+			"ControlName"	"CExImageButton"
+			"fieldName"		"ToggleChatButton"
+			"xpos"			"15"
+			"ypos"			"192"
+			"zpos"			"100"
+			"wide"			"400"
+			"tall"			"46"
+			"visible"		"1"
+			"enabled"		"1"
+			"tabPosition"	"0"
+			"font"			"HudFontSmallestBold"
+			"textAlignment"	"center"
+			"dulltext"		"0"
+			"brighttext"	"0"
+			"Command"		"toggle_chat"
+			"proportionaltoparent"	"1"
+			"labeltext"		""
+			"mouseinputenabled"	"1"
+			"keyboardinputenabled"	"0"
+			"actionsignallevel"	"2"
+			"roundedcorners"	"0"
+
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+
+			"image_drawcolor"	"0 0 0 0"
+			"image_armedcolor"	"TanLight"
+			"defaultbgcolor_override" blank
+			"armedbgcolor_override" "255 255 255 0"			
+			"SubImage"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"SubImage"
+				"xpos"			"195"
+				"ypos"			"cs-0.5"
+				"zpos"			"1"
+				"wide"			"30"
+				"tall"			"o1"
+				"visible"		"1"
+				"enabled"		"1"
+				"scaleImage"	"1"
+				"proportionaltoparent"	"1"
+				"image"			"glyph_chat"
+				"drawcolor_override" "Tanlight"
+			}
+		}		
 		"FindGameButton"
 		{
 			"ControlName"	"EditablePanel"
@@ -2867,6 +3018,47 @@
 			}		
 		}
 	}
+	"ChatDummy"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldname"		"ChatDummy"
+		"xpos"			"c0"
+		"ypos"			"c0"
+		"zpos"			"9999"
+		"wide"			"74"
+		"tall"			"14"
+		"visible"		"0"
+		"proportionaltoparent"	"1"
+
+		"SubButton"
+		{
+			"ControlName"	"CExImageButton"
+			"fieldName"		"SubButton"
+			"xpos"			"0"
+			"ypos"			"0"
+			"wide"			"f0"
+			"tall"			"f0"
+			"visible"		"1"
+			"enabled"		"1"
+			"labelText"		"CGHAT"
+			"font"			"MenuButton"
+			"textAlignment"	"west"
+			"command"		"toggle_chat"
+			"paintbackground"	"0"
+			"paintborder"	"0"
+			"actionsignallevel"	"2"
+			
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+			"sound_armed"	"UI/buttonrollover.wav"
+			
+			"defaultfgColor_override"	"HudWhite"			
+			"disabledfgColor2_override"	"HudWhite"			
+			"armedfgColor_override"	"BorderBright"
+			
+			"proportionaltoparent"	"1"			
+		}		
+	}	
 	"FindGameDummy"
 	{
 		"ControlName"	"EditablePanel"
@@ -3394,6 +3586,7 @@
 	}
 	
 	
+		
 	"SettingsButton2_IG"
 	{
 		"ControlName"	"EditablePanel"

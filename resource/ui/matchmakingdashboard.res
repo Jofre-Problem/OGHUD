@@ -9,11 +9,11 @@
 		"ypos"					"0"
 		"zpos"					"-1"
 		"wide"					"f0"
-		"tall"					"350"
+		"tall"					"250"
 		"keyboardinputenabled"	"0"
 
 		"collapsed_height"	"0"
-		"expanded_height"	"350"
+		"expanded_height"	"250"
 		"resize_time"		"0.2"
 	}
 
@@ -82,18 +82,18 @@
 			"proportionaltoparent"	"1"
 		}
 
-		"ToggleChatButton"
+		"ToggleChatButton"		// impossible?
 		{
 			"ControlName"	"CExImageButton"
 			"fieldName"		"ToggleChatButton"
 			"xpos"			"0"
-			"ypos"			"0"
+			"ypos"			"10"
 			"zpos"			"100"
-			"wide"			"0"
-			"tall"			"f6"
+			"wide"			"f0"
+			"tall"			"51"
 			"autoResize"	"0"
 			"pinCorner"		"3"
-			"visible"		"1"
+			"visible"		"0"
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"font"			"HudFontSmallestBold"
