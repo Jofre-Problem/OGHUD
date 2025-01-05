@@ -200,8 +200,8 @@
 		{
 			"xpos"			"8888"
 			"ypos"			"cs-0.5"
-			"tall"			"35"
-			"wide"			"505"
+			"tall"			"0"
+			"wide"			"0"
 		}
 
 		"NameLabel"
@@ -303,6 +303,13 @@
 			"bgcolor_override"		"BGDark"
 			"border"		"SRCBorderConcave"
 			"proportionaltoparent"	"1"
+
+			if_mini
+			{
+				"xpos"			"r0"
+				"ypos"			"0"
+				"wide"			"p0.85"
+			}			
 		}
 
 		"StatsContainer"

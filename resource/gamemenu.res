@@ -50,7 +50,12 @@
 		"command"		"quit"
 		"OnlyAtMenu"	"1"
 	}
-	
+	"GoofyAnchor"
+	{
+		"label"			"bruh"
+		"command"		"engine none"
+		"OnlyInGame"	"1"
+	}	
 	//In-Game Buttons
 	"ResumeGameButton"
 	{
