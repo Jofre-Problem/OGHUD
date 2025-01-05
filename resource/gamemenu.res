@@ -1,12 +1,5 @@
-"GameMenu" [$WIN32]
+"GameMenu"
 {
-	"VRModeButton"
-	{
-		"label" "#MMenu_VRMode_Activate"
-		"command" "engine vr_toggle"
-		"subimage" "glyph_vr"
-		"OnlyWhenVREnabled" "1"
-	}
 	
 	//Menu Buttons
 	"FindGameButton"
@@ -102,12 +95,6 @@
 		"command"		"find_game"
 		"OnlyInGame"	"1"
 	}
-	"cgatGameDummy_IG"
-	{
-		"label"			"FInd Servers"
-		"command"		"toggle_chat"
-		"OnlyInGame"	"1"
-	}	
 	"FindGameDummy_IG"
 	{
 		"label"			"FInd Servers"

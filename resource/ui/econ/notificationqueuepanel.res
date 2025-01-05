@@ -4,10 +4,10 @@
 	{
 		"ControlName"	"CNotificationQueuePanel"
 		"fieldName"		"NotificationQueuePanel"
-		"xpos"			"10"
+		"xpos"			"0"
 		"ypos"			"r315"
 		"zpos"			"100"
-		"wide"			"200"
+		"wide"			"350"
 		"tall"			"100"
 		"visible"		"1"
 		"enabled"		"1"
