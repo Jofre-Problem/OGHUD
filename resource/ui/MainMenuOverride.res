@@ -2799,7 +2799,7 @@
 	{
 		"ControlName"    "Panel"
 		
-		"ypos" "270"	// higher ypos - lower goes
+		"ypos" "270+90"	// higher ypos - lower goes
 		"xpos" 107 // unsure about the xpos	
 	}
 	"partychat"
@@ -2812,7 +2812,6 @@
 	}
 	"MMDashboard"
 	{
-	
 		"ToggleChatButton"		// impossible?
 		{
 			"ControlName"	"CExImageButton"
@@ -3249,7 +3248,7 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"1"
-		"wide"			"74"
+		"wide" "74"//"74"
 		"tall"			"14"
 		"visible"		"1"
 
@@ -3263,10 +3262,10 @@
 			"tall"			"f0"
 			"visible"		"1"
 			"enabled"		"1"
-			"labelText"		"FIND SERVERS"
+			"labelText"		"Disconnect"
 			"font"			"MenuButton"
 			"textAlignment"	"west"
-			"command"		"OpenServerBrowser"
+			"command"		"engine disconnect"
 			"paintbackground"	"0"
 			"actionsignallevel"	"2"
 			"paintborder"	"0"

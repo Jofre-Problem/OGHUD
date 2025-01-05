@@ -61,7 +61,7 @@
 	"DisconnectButton"
 	{
 		"label"			"Disconnect"
-		"command"		"disconnect"
+		"command"		"engine none"	// bypass?
 		"OnlyInGame"	"1"
 	}
 	"MutePlayersButton"
@@ -88,7 +88,6 @@
 		"subimage"		"glyph_alert"
 		"tooltip"		""
 	}
-	
 	"FindGameButton_IG"
 	{
 		"label"			"FInd Servers"
