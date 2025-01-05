@@ -1,6 +1,13 @@
-#base "../basefiles/ClientScheme.res" 
-#base "../basefiles/ClientScheme_2.res" 
-
+//
+// TRACKER SCHEME RESOURCE FILE
+//
+// sections:
+//		colors			- all the colors used by the scheme
+//		basesettings	- contains settings for app to use to draw controls
+//		fonts			- list of all the fonts used by app
+//		borders			- description of all the borders
+//
+//
 Scheme
 {
 	//Name - currently overriden in code
@@ -12,15 +19,12 @@ Scheme
 	Colors
 	{
 		// base colors
-    "CustomRed"				"255 80 80 255"		
-		"CustomPink"			"255 80 255 255"
-		"CustomGray"			"20 20 20 255"
-		"CustomBlack"			"0 0 0 255"
-		"CustomWhite"			"255 255 255 255"
-		"CustomGreen"			"80 255 80 255"
-		"CustomYellow"			"255 255 80 255"
-		"CustomLightGreen"		"150 255 150 255"
-		"CustomTransparent"		"0 0 0 0"
+		"Orange"			"178 82 22 255"
+		"OrangeDim"			"178 82 22 120"
+		"LightOrange"		"188 112 0 128"
+		"GoalOrange"		"255 133 0"
+		"TFOrange"			"145 73 59 255"
+		"Purple"			"137 69 99 255"
 
 		"QuestGold"			"208 147 75 255"
 		"HalloweenThemeColor2015_Light"	"238 126 17 255"
@@ -204,34 +208,6 @@ Scheme
 		"UpgradeSelectedBg"		"249 138 83 255"
 		"UpgradeDisabledFg"		"64 59 52 255"
 		"UpgradeDisabledBg"		"79 77 68 255"
-
-    "BorderDark"			"40 40 40 196"
-		"BorderBright"			"200 200 200 196"
-		"BorderBrightSolid"			"200 200 200 255"
-		"BGBright"				"160 160 160 128"
-		"BGBrightSolid"				"160 160 160 255"
-		"BGDark"				" 0   0   0  128"
-		
-		"HL2Yellow"				"255 220 0 100"
-		"HL2YellowSolid"		"181 166 72 100"
-		"HL2YellowBright"		"255 220 0 255"
-		"HL2DamagedFg"			"180 0 0 230"
-		
-		"HL2BG"					"0 0 0 76"
-		"HL2DamagedBG"			"180 0 0 200"
-		"HL2BrightFg"			"255 220 0 255"
-		"HL2BrightDamagedFg"	"255 0 0 255"
-		
-		"HL2Red"			"255 64 64 255"
-		"HL2Blue"			"153 204 255 255"
-		
-		// HL1-style HUD colors
-		"Yellowish"			"255 160 0 255"
-		"Normal"			"255 208 64 255"
-		"Caution"			"255 48 0 255"
-		
-		"PanelText"			"255 177 0 255"
-		"PanelTextDisabled"	"126 126 126 255"
 	}
 
 	///////////////////// BASE SETTINGS ////////////////////////
@@ -505,7 +481,8 @@ Scheme
 			"2"
 			{
 				"name"		"Verdana"
-				"tall"		"13"
+				"tall"		"13"	[$WIN32]
+				"tall"		"20"	[$X360]
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"600 767"
@@ -528,13 +505,12 @@ Scheme
 				"yres"	"1024 1199"
 				"antialias"	"1"
 			}
-			"5"
+			"5" // Misyl: Proportional
 			{
 				"name"		"Verdana"
-				"tall"		"24"
+				"tall"		"9"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"1200 6000"
 				"antialias"	"1"
 			}
 			"6"
@@ -608,13 +584,12 @@ Scheme
 				"yres"	"1024 1199"
 				"antialias"	"1"
 			}
-			"5"
+			"5" // Misyl: Proportional
 			{
 				"name"		"Verdana"
-				"tall"		"22"
+				"tall"		"9"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
-				"yres"	"1200 6000"
 				"antialias"	"1"
 			}
 			"6"
@@ -663,13 +638,12 @@ Scheme
 				"yres"	"1024 1199"
 				"antialias"	"1"
 			}
-			"5"
+			"5" // Misyl: Proportional
 			{
 				"name"		"Verdana"
-				"tall"		"16"
+				"tall"		"9"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"1200 6000"
 				"antialias"	"1"
 			}
 		}
@@ -709,13 +683,12 @@ Scheme
 				"yres"		"1024 1199"
 				"antialias"	"1"
 			}
-			"5"
+			"5" // Misyl: Proportional
 			{
 				"name"		"Verdana"
-				"tall"		"30"
+				"tall"		"18"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"1200 6000"
 				"antialias"	"1"
 			}
 			"6"
@@ -789,12 +762,12 @@ Scheme
 				"weight"	"700"
 				"yres"	"1024 1199"
 			}
-			"5"
+			"5" // Misyl: Proportional
 			{
 				"name"		"Verdana"
-				"tall"		"24"
+				"tall"		"12"
 				"weight"	"700"
-				"yres"	"1200 10000"
+				"antialias"	"1"
 			}
 		}
 		"HudFontGiant"
@@ -840,11 +813,10 @@ Scheme
 			"5"
 			{
 				"name"		"TF2"
-				"tall"		"52"
+				"tall"		"24"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
-				"yres"		"1200 10000"
 			}
 		}
 		"HudFontGiantBold"
@@ -925,6 +897,15 @@ Scheme
 			{
 				"name"		"TF2 Secondary"
 				"tall"		"24"
+				"weight"	"500"
+				"yres"		"1 1199"
+				"additive"	"0"
+				"antialias" "1"
+			}
+			"2" // Misyl: Proportional
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"10"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -2414,7 +2395,8 @@ Scheme
 			"1"
 			{
 				"name"		"Verdana"
-				"tall"		"7"
+				"tall"		"7" [!$POSIX]
+				"tall"		"8" [$POSIX]
 				"weight"	"0"
 				"additive"	"1"
 				"antialias" 	"1"
@@ -2425,7 +2407,8 @@ Scheme
 			"1"
 			{
 				"name"		"Verdana"
-				"tall"		"7"
+				"tall"		"7" [!$POSIX]
+				"tall"		"8" [$POSIX]
 				"weight"	"0"
 				"antialias" 	"1"
 			}
@@ -2435,7 +2418,8 @@ Scheme
 			"1"
 			{
 				"name"		"Verdana"
-				"tall"		"7"
+				"tall"		"7" [!$POSIX]
+				"tall"		"8" [$POSIX]
 				"weight"	"0"
 				"blur"		"3"
 				"additive"	"1"
@@ -2457,6 +2441,7 @@ Scheme
 		{
 			"1"
 			{
+				"name"		"OCR A Extended" [$WINDOWS]
 				"name"		"ocra"
 				"tall"		"10"
 				"weight"	"400"
@@ -2466,6 +2451,7 @@ Scheme
 			}
 			"2"
 			{
+				"name"		"OCR A Extended" [$WINDOWS]
 				"name"		"ocra"
 				"tall"		"14"
 				"weight"	"400"
@@ -2475,7 +2461,8 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"ocra"
+				"name"		"OCR A Extended" [$WINDOWS]
+				"name"		"ocra"	
 				"tall"		"18"
 				"weight"	"400"
 				"additive"	"0"
@@ -2488,6 +2475,7 @@ Scheme
 		{
 			"1"
 			{
+				"name"		"OCR A Extended" [$WINDOWS]
 				"name"		"ocra"
 				"tall"		"10"
 				"weight"	"800"
@@ -2497,6 +2485,7 @@ Scheme
 			}
 			"2"
 			{
+				"name"		"OCR A Extended" [$WINDOWS]
 				"name"		"ocra"
 				"tall"		"14"
 				"weight"	"800"
@@ -2506,6 +2495,7 @@ Scheme
 			}
 			"3"
 			{
+				"name"		"OCR A Extended" [$WINDOWS]
 				"name"		"ocra"
 				"tall"		"18"
 				"weight"	"800"
@@ -2519,6 +2509,7 @@ Scheme
 		{
 			"1"
 			{
+				"name"		"OCR A Extended" [$WINDOWS]
 				"name"		"ocra"
 				"tall"		"16"
 				"weight"	"400"
@@ -2664,7 +2655,7 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Secondary"
-				"tall"		"10"
+				"tall"		"12"
 				"weight"	"400"
 				"additive"	"0"
 				"antialias" "1"
@@ -2983,6 +2974,7 @@ Scheme
 		{
 			"1"
 			{
+				"name"		"OCR A Extended" [$WINDOWS]
 				"name"		"ocra"
 				"tall"		"7"
 				"weight"	"0"
@@ -2996,7 +2988,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"ocra"
+				"name"		"OCR A Extended" [$WINDOWS]
+				"name"		"ocra"		
 				"tall"		"7"
 				"weight"	"400"
 				"additive"	"0"
@@ -3008,6 +3001,7 @@ Scheme
 		{
 			"1"
 			{
+				"name"		"OCR A Extended" [$WINDOWS]
 				"name"		"ocra"
 				"tall"		"10"
 				"weight"	"400"
@@ -3020,6 +3014,7 @@ Scheme
 		{
 			"1"
 			{
+				"name"		"OCR A Extended" [$WINDOWS]
 				"name"		"ocra"
 				"tall"		"14"
 				"weight"	"400"
@@ -3032,6 +3027,7 @@ Scheme
 		{
 			"1"
 			{
+				"name"		"OCR A Extended" [$WINDOWS]
 				"name"		"ocra"
 				"tall"		"30"
 				"weight"	"400"
@@ -3039,248 +3035,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		
-		"LogoTwo"
-		{
-			"1"
-			{
-				"name"		"HL2"
-				"tall"		"32"
-				"weight"	"0"
-				"antialias"	"1"
-			}
-		}
-		"HudNumbers2"
-		{
-			"1"
-			{
-				"name"		"HL2"
-				"tall"		"32"
-				"weight"	"0"
-				"antialias" "1"
-				"additive"	"1"
-				"custom"	"1"
-			}
-		}
-		
-		HudNumbersSmall
-		{
-			"1"
-			{
-				"name"		"HL2"
-				"tall"		"16"	[$WIN32]
-				"weight"	"1000"
-				"additive"	"1"
-				"antialias" "1"
-				"custom"	"1"
-			}
-		}
-		HudNumbersGlow
-		{
-			"1"
-			{
-				"name"		"HL2"
-				"tall"		"32"
-				"weight"	"0"
-				"blur"		"4"
-				"scanlines" "2"
-				"antialias" "1"
-				"additive"	"1"
-				"custom"	"1"
-			}
-		}
-		Crosshairs
-		{
-			"1"
-			{
-				"name"		"HL2"
-				"tall"		"41"
-				"weight"	"0"
-				"antialias" "0"
-				"additive"	"1"
-				"custom"	"1"
-				"yres"		"1 10000"
-			}
-		}
-		ClientTitleFont
-		{
-			"1"
-			{
-				"name"  "HL2"
-				"tall"			"32"
-				"tall_hidef"	"46"
-				"weight" "0"
-				"additive" "0"
-				"antialias" "1"
-				"custom"	"1" [$OSX]
-			}
-		}
-		
-		"SRCLabel"
-		{
-			"1"
-			{
-				"name"		"Verdana"
-				"tall"		"14"
-				"weight"	"0"
-				"antialias"	"0"
-				"yres"		"1 10000"
-			}
-		}
-		
-		MenuButton
-		{
-			"1"
-			{
-				"name"		"TF2 Build"
-				"tall"		"8"
-				"weight"	"600"
-				"antialias" "1"
-			}
-		}
-		
-		"SRCTitle"
-		{
-			"1"
-			{
-				"name"		"Verdana Bold"
-				"tall"		"12"
-				"weight"	"1400"
-				"additive"	"0"
-				"antialias" 	"0"
-				"yres"		"1 10000"
-			}
-		}
-
-		"SRCTitleAA"
-		{
-			"1"
-			{
-				"name"		"Verdana Bold"
-				"tall"		"6"
-				"weight"	"1400"
-				"additive"	"0"
-				"antialias" 	"1"
-			}
-		}
-		
-		"Marlett6"
-		{
-			"1"
-			{
-				"name"		"Marlett"
-				"tall"		"6"
-				"weight"	"0"
-				"symbol"	"1"
-				"range"		"0x0000 0x007F"	//	Basic Latin
-			}
-		}
-		
-		"Marlett8"
-		{
-			"1"
-			{
-				"name"		"Marlett"
-				"tall"		"8"
-				"weight"	"0"
-				"symbol"	"1"
-				"range"		"0x0000 0x007F"	//	Basic Latin
-			}
-		}
-		
-		"Marlett10"
-		{
-			"1"
-			{
-				"name"		"Marlett"
-				"tall"		"10"
-				"weight"	"0"
-				"symbol"	"1"
-				"range"		"0x0000 0x007F"	//	Basic Latin
-			}
-		}
-		
-		"Marlett12"
-		{
-			"1"
-			{
-				"name"		"Marlett"
-				"tall"		"12"
-				"weight"	"0"
-				"symbol"	"1"
-				"range"		"0x0000 0x007F"	//	Basic Latin
-			}
-		}
-		
-		Trebuchet20
-		{
-			"1"
-			{
-				"name"		"Trebuchet MS"
-				"tall"		"20"
-				"weight"	"900"
-				"antialias" "1"
-				"additive"	"0"
-			}
-		}
-		Trebuchet22
-		{
-			"1"
-			{
-				"name"		"Trebuchet MS"
-				"tall"		"22"
-				"weight"	"900"
-				"antialias" "1"
-				"additive"	"0"
-			}
-		}
-		Trebuchet24
-		{
-			"1"
-			{
-				"name"		"Trebuchet MS"
-				"tall"		"24"
-				"weight"	"900"
-				"antialias" "1"
-				"additive"	"0"
-			}
-		}
-		Trebuchet26
-		{
-			"1"
-			{
-				"name"		"Trebuchet MS"
-				"tall"		"26"
-				"weight"	"900"
-				"antialias" "1"
-				"additive"	"0"
-			}
-		}
-		
-		"WinPanelLarge"
-		{
-			"1"
-			{
-				"name"		"Verdana" [!$OSX]
-				"name"		"Helvetica" [$OSX]
-				"tall"		"14"
-				"weight"	"700"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"antialias"	"1" [!$OSX]
-			}
-		}
-		"C_Src_Marlett6"
-		{
-			"1"
-			{
-				"name"		"Marlett"
-				"tall"		"6"
-				"weight"	"0"
-				"symbol"	"1"
-			}
-		}
 	}
-
 
 	//
 	//////////////////// BORDERS //////////////////////////////
@@ -3327,7 +3082,7 @@ Scheme
 				}
 			}
 		}
-
+		
 		TeamMenuBorder
 		{
 			"inset" "0 0 0 0"
@@ -3400,6 +3155,13 @@ Scheme
 			"backgroundtype" "2"
 		}
 
+		ButtonBorder
+		{
+			"inset" "0 0 0 0"
+			"backgroundtype" "2"
+		}
+
+		// this is the border used for default buttons (the button that gets pressed when you hit enter)
 		ButtonKeyFocusBorder
 		{
 			"inset" "0 0 0 0"
@@ -3419,7 +3181,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "BorderDark"
+					"color" "TanLight"
 					"offset" "0 1"
 				}
 			}
@@ -3428,7 +3190,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "BorderBright"
+					"color" "TanLight"
 					"offset" "1 0"
 				}
 			}
@@ -3437,7 +3199,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "BorderDark"
+					"color" "TanLight"
 					"offset" "0 0"
 				}
 			}
@@ -3446,7 +3208,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "BorderBright"
+					"color" "TanLight"
 					"offset" "0 0"
 				}
 			}
@@ -3788,126 +3550,59 @@ Scheme
 		EconItemBorder
 		{
 			"bordertype"			"scalable_image"
-			"backgroundtype"        "2"
+			"backgroundtype"		"2"
 			
-      "image"                    "loadout_rect"
+			"image"					"loadout_rect"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"5"	
 		}
-
-		Econ.Button.Border.Default.HL1
+		Econ.Button.Border.Default
 		{
 			"inset" "0 0 0 0"
-			Left
-			{
-				"1"
-				{
-					"color" "BorderBright"
-					"offset" "0 0"
-				}
-			}
-
-			Right
-			{
-				"1"
-				{
-					"color" "BorderDark"
-					"offset" "0 0"
-				}
-			}
-
-			Top
-			{
-				"1"
-				{
-					"color" "BorderBright"
-					"offset" "0 0"
-				}
-			}
-
-			Bottom
-			{
-				"1"
-				{
-					"color" "BorderDark"
-					"offset" "0 0"
-				}
-			}
+			"backgroundtype" "2"
 		}
-		Econ.Button.Border.Armed.HL1
+		Econ.Button.Border.Armed
 		{
 			"inset" "0 0 0 0"
-			Left
-			{
-				"1"
-				{
-					"color" "BorderBright"
-					"offset" "0 0"
-				}
-			}
-
-			Right
-			{
-				"1"
-				{
-					"color" "BorderDark"
-					"offset" "0 0"
-				}
-			}
-
-			Top
-			{
-				"1"
-				{
-					"color" "BorderBright"
-					"offset" "0 0"
-				}
-			}
-
-			Bottom
-			{
-				"1"
-				{
-					"color" "BorderDark"
-					"offset" "0 0"
-				}
-			}
+			"backgroundtype" "2"
 		}
 
 		LoadoutItemMouseOverBorder
 		{
 			"bordertype"			"scalable_image"
-		//	"image"					"replay/thumbnails/econ/item_hover"
+			"backgroundtype"		"2"
 			
-		//	"src_corner_height"		"2"				// pixels inside the image
-		//	"src_corner_width"		"2"
-		//	"draw_corner_width"		"1"				// screen size of the corners ( and sides ), proportional
-		//	"draw_corner_height" 	"1"	
+			"image"					"loadout_rect_mouseover"
+			"src_corner_height"		"24"				// pixels inside the image
+			"src_corner_width"		"24"
+			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"5"	
 		}
 		LoadoutItemPopupBorder
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			
-		//	"image"					"replay/thumbnails/econ/item_tooltip"
-			
-		//	"src_corner_height"		"2"				// pixels inside the image
-		//	"src_corner_width"		"2"
-		//	"draw_corner_width"		"1"				// screen size of the corners ( and sides ), proportional
-		//	"draw_corner_height" 	"1"	
+			"image"					"button_holder_central"
+			"src_corner_height"		"32"				// pixels inside the image
+			"src_corner_width"		"32"
+			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"4"	
 		}
 		
 		BackpackItemGrayedOut
 		{
 			"bordertype"			"scalable_image"
-			"image"					"replay/thumbnails/econ/item_border"
+			"backgroundtype"		"2"
+			"color"					"Black"
 			
-			"src_corner_height"		"2"				// pixels inside the image
-			"src_corner_width"		"2"
-			"draw_corner_width"		"1"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"1"	
+			"image"					"backpack_rect_color"
+			"src_corner_height"		"24"				// pixels inside the image
+			"src_corner_width"		"24"
+			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"11"	
 		}
 		
 		BackpackItemGrayedOut_Selected
@@ -5033,12 +4728,11 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"ItemRarityAncient"
 			
-			"image"					"replay/thumbnails/econ/item_border_color"
-			
-			"src_corner_height"		"2"				// pixels inside the image
-			"src_corner_width"		"2"
-			"draw_corner_width"		"1"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"1"	
+			"image"					"backpack_rect_color"
+			"src_corner_height"		"24"				// pixels inside the image
+			"src_corner_width"		"24"
+			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"5"	
 		}
 		BackpackItemMouseOverBorder_RarityAncient
 		{
@@ -5046,12 +4740,11 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"ItemRarityAncient"
 			
-			"image"					"replay/thumbnails/econ/item_hover_color"
-			
-			"src_corner_height"		"2"				// pixels inside the image
-			"src_corner_width"		"2"
-			"draw_corner_width"		"1"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"1"	
+			"image"					"backpack_rect_mouseover_color"
+			"src_corner_height"		"24"				// pixels inside the image
+			"src_corner_width"		"24"
+			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"5"	
 		}
 		BackpackItemGreyedOutBorder_RarityAncient
 		{
@@ -5972,12 +5665,12 @@ Scheme
 			{
 				"1"
 				{
-					"color" "Yellowish"
+					"color" "CreditsGreen"
 					"offset" "0 1"
 				}
 				"2"
 				{
-					"color" "Yellowish"
+					"color" "CreditsGreen"
 					"offset" "0 1"
 				}
 			}
@@ -5986,296 +5679,12 @@ Scheme
 			{
 				"1"
 				{
-					"color" "Yellowish"
+					"color" "CreditsGreen"
 					"offset" "1 0"
 				}
 				"2"
 				{
-					"color" "Yellowish"
-					"offset" "1 0"
-				}
-			}
-
-			Top
-			{
-				"1"
-				{
-					"color" "Yellowish"
-					"offset" "0 0"
-				}
-				"2"
-				{
-					"color" "Yellowish"
-					"offset" "0 0"
-				}
-			}
-
-			Bottom
-			{
-				"1"
-				{
-					"color" "Yellowish"
-					"offset" "0 0"
-				}
-				"2"
-				{
-					"color" "Yellowish"
-					"offset" "0 0"
-				}
-			}
-		}
-		CustomBorder
-		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
-			
-			"image"					"replay/panel_scalable_transparent"
-			"src_corner_height"		"127"				// pixels inside the image
-			"src_corner_width"		"127"
-			"draw_corner_width"		"24"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"24"	
-		}
-		
-		SRCToolTip
-		{
-			"inset" "0 0 0 0"
-			Left
-			{
-				"1"
-				{
-					"color" "0 0 0 200"
-					"offset" "0 0"
-				}
-			}
-
-			Right
-			{
-				"1"
-				{
-					"color" "0 0 0 200"
-					"offset" "0 0"
-				}
-			}
-
-			Top
-			{
-				"1"
-				{
-					"color" "0 0 0 200"
-					"offset" "0 0"
-				}
-			}
-
-			Bottom
-			{
-				"1"
-				{
-					"color" "0 0 0 200"
-					"offset" "0 0"
-				}
-			}
-		}
-		
-		SRCBorderConcave
-		{
-			"inset" "0 0 0 0"
-			Left
-			{
-				"1"
-				{
-					"color" "BorderDark"
-					"offset" "0 0"
-				}
-			}
-
-			Right
-			{
-				"1"
-				{
-					"color" "BorderBright"
-					"offset" "0 0"
-				}
-			}
-
-			Top
-			{
-				"1"
-				{
-					"color" "BorderDark"
-					"offset" "0 0"
-				}
-			}
-
-			Bottom
-			{
-				"1"
-				{
-					"color" "BorderBright"
-					"offset" "0 0"
-				}
-			}
-		}
-		
-		SRCBorderConvex
-		{
-			"inset" "0 0 0 0"
-			Left
-			{
-				"1"
-				{
-					"color" "BorderBright"
-					"offset" "0 0"
-				}
-			}
-
-			Right
-			{
-				"1"
-				{
-					"color" "BorderDark"
-					"offset" "0 0"
-				}
-			}
-
-			Top
-			{
-				"1"
-				{
-					"color" "BorderBright"
-					"offset" "0 0"
-				}
-			}
-
-			Bottom
-			{
-				"1"
-				{
-					"color" "BorderDark"
-					"offset" "0 0"
-				}
-			}
-		}
-		
-		SRCTabNotSelected
-		{
-			"inset" "0 0 0 0"
-			Left
-			{
-				"1"
-				{
-					"color" "BorderBright"
-					"offset" "0 0"
-				}
-			}
-
-			Right
-			{
-				"1"
-				{
-					"color" "BorderDark"
-					"offset" "0 0"
-				}
-			}
-
-			Top
-			{
-				"1"
-				{
-					"color" "BorderBright"
-					"offset" "0 0"
-				}
-			}
-
-			Bottom
-			{
-				"1"
-				{
-					"color" "BorderBright"
-					"offset" "0 0"
-				}
-			}
-		}
-		
-		SRCTabSelected
-		{
-			"inset" "0 0 0 0"
-			Left
-			{
-				"1"
-				{
-					"color" "BorderBright"
-					"offset" "0 0"
-				}
-			}
-
-			Right
-			{
-				"1"
-				{
-					"color" "BorderDark"
-					"offset" "0 0"
-				}
-			}
-
-			Top
-			{
-				"1"
-				{
-					"color" "BorderBright"
-					"offset" "0 0"
-				}
-			}
-		}
-		
-		SRCBorderConvexSWE
-		{
-			"inset" "0 0 0 0"
-			Left
-			{
-				"1"
-				{
-					"color" "BorderBright"
-					"offset" "0 0"
-				}
-			}
-
-			Right
-			{
-				"1"
-				{
-					"color" "BorderDark"
-					"offset" "0 0"
-				}
-			}
-			
-			Bottom
-			{
-				"1"
-				{
-					"color" "BorderDark"
-					"offset" "0 0"
-				}
-			}
-		}
-		
-		HL2ButtonBorder
-		{
-			"inset" "0 0 1 1"
-			Left
-			{
-				"1"
-				{
-					"color" "PanelText"
-					"offset" "0 1"
-				}
-
-			}
-
-			Right
-			{
-				"1"
-				{
-					"color" "PanelText"
+					"color" "CreditsGreen"
 					"offset" "1 0"
 				}
 			}
@@ -6284,7 +5693,12 @@ Scheme
 			{
 				"1"
 				{
-					"color" "PanelText"
+					"color" "CreditsGreen"
+					"offset" "0 0"
+				}
+				"2"
+				{
+					"color" "CreditsGreen"
 					"offset" "0 0"
 				}
 			}
@@ -6293,102 +5707,15 @@ Scheme
 			{
 				"1"
 				{
-					"color" "PanelText"
+					"color" "CreditsGreen"
 					"offset" "0 0"
 				}
-			}
-		}
-		
-		HL2BlueBorder
-		{
-			"inset" "0 0 0 0"
-			Left
-			{
-				"1"
+				"2"
 				{
-					"color" "TeamBlue"
+					"color" "CreditsGreen"
 					"offset" "0 0"
 				}
 			}
-
-			Right
-			{
-				"1"
-				{
-					"color" "TeamBlue"
-					"offset" "0 0"
-				}
-			}
-
-			Top
-			{
-				"1"
-				{
-					"color" "TeamBlue"
-					"offset" "0 0"
-				}
-			}
-
-			Bottom
-			{
-				"1"
-				{
-					"color" "TeamBlue"
-					"offset" "0 0"
-				}
-			}
-		}
-		
-		HL2RedBorder
-		{
-			"inset" "0 0 0 0"
-			Left
-			{
-				"1"
-				{
-					"color" "TeamRed"
-					"offset" "0 0"
-				}
-			}
-
-			Right
-			{
-				"1"
-				{
-					"color" "TeamRed"
-					"offset" "0 0"
-				}
-			}
-
-			Top
-			{
-				"1"
-				{
-					"color" "TeamRed"
-					"offset" "0 0"
-				}
-			}
-
-			Bottom
-			{
-				"1"
-				{
-					"color" "TeamRed"
-					"offset" "0 0"
-				}
-			}
-		}
-		
-		HL2Panel
-		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
-			
-			"image"					"replay/thumbnails/message_dialog"
-			"src_corner_height"		"24"				// pixels inside the image
-			"src_corner_width"		"24"
-			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"11"	
 		}
 	}
 
@@ -6458,24 +5785,74 @@ Scheme
 				"range" "0x0000 0xFFFF"
 			}
 		}			
-		"7" "resource/ocra.ttf"
+		"7"
+		{
+			"font"	"resource/ocra.ttf"
+			"name" "ocra"
+			"turkish"
+			{
+				"range" "0x0000 0x007E"
+			}
+			"swedish"
+			{
+				"range" "0x0000 0x007E"
+			}
+			"spanish"
+			{
+				"range" "0x0000 0x007E"
+			}
+			"romanian"
+			{
+				"range" "0x0000 0x007E"
+			}
+			"polish"
+			{
+				"range" "0x0000 0x007E"
+			}
+			"norwegian"
+			{
+				"range" "0x0000 0x007E"
+			}
+			"danish"
+			{
+				"range" "0x0000 0x007E"
+			}
+			"hungarian"
+			{
+				"range" "0x0000 0x007E"
+			}
+			"german"
+			{
+				"range" "0x0000 0x007E"
+			}
+			"french"
+			{
+				"range" "0x0000 0x007E"
+			}
+			"finnish"
+			{
+				"range" "0x0000 0x007E"
+			}
+			"czech"
+			{
+				"range" "0x0000 0x007E"
+			}
+			"bulgarian"
+			{
+				"range" "0x0000 0x007E"
+			}
+			"russian"
+			{
+				"range" "0x0000 0x007E"
+			}
+		}
+		"10"		"resource/linux_fonts/DejaVuSans.ttf"
+		"11"		"resource/linux_fonts/DejaVuSans-Bold.ttf"
+		"12"		"resource/linux_fonts/DejaVuSans-BoldOblique.ttf"
+		"13"		"resource/linux_fonts/DejaVuSans-Oblique.ttf"
+		"14"		"resource/linux_fonts/LiberationSans-Regular.ttf"
+		"15"		"resource/linux_fonts/LiberationSans-Bold.ttf"
+		"16"		"resource/linux_fonts/LiberationMono-Regular.ttf"
+		"17"		"resource/linux_fonts/FiraSans-Regular.ttf"
 	}
 }
-
-"#base"		"clientscheme_lionHUD-master.res"
-"#base"		"clientscheme_TF2HUD.Fixes-communityFULLFIX.res"
-"#base"		"clientscheme_eve hud.res"
-"#base"		"clientscheme_toonhud.res"
-"#base"		"clientschemeBETTER.res"
-
-//===========================================================================================================================
-// CROSSHAIR SCHEME EXPLANATIONS
-//---------------------------------------------------------------------------------------------------------------------------
-// In order to prevent any lag some of the less common font schemes featuring properties like blur are disabled by default
-// Uncomment any needed scheme by removing the // and make sure to comment any unused scheme to maximize the hud performance!
-//===========================================================================================================================
-
-//"#base" "crosshair_outline.res"
-//"#base" "crosshair_blur.res"
-//"#base" "crosshair_dropshadow.res"
-"#base" "crosshair_main.res"
