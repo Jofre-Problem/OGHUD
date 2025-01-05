@@ -878,7 +878,9 @@
 			"border_default"		"SRCBorderConvex"
 
 			"proportionaltoparent"	"1"
-			
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+			"sound_armed"	"UI/buttonrollover.wav"			
 			"defaultfgColor_override"	"HudWhite"			
 			"armedfgColor_override"	"HudWhite"			
 		}
@@ -913,7 +915,9 @@
 			"border_default"		"SRCBorderConvex"
 
 			"proportionaltoparent"	"1"
-			
+				"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+			"sound_armed"	"UI/buttonrollover.wav"		
 			"defaultfgColor_override"	"HudWhite"			
 			"armedfgColor_override"	"HudWhite"			
 		}
@@ -948,7 +952,9 @@
 			"border_default"		"SRCBorderConvex"
 
 			"proportionaltoparent"	"1"
-			
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+			"sound_armed"	"UI/buttonrollover.wav"			
 			"defaultfgColor_override"	"HudWhite"			
 			"armedfgColor_override"	"HudWhite"			
 		}
@@ -981,7 +987,9 @@
 			"pin_corner_to_sibling"	"4"	
 			"actionsignallevel"	"2"
 			"border_default"		"SRCBorderConvex"
-
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+			"sound_armed"	"UI/buttonrollover.wav"
 			"proportionaltoparent"	"1"
 			
 			"defaultfgColor_override"	"HudWhite"			
@@ -1016,7 +1024,9 @@
 			"pin_corner_to_sibling"	"4"	
 			"actionsignallevel"	"2"
 			"border_default"		"SRCBorderConvex"
-
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+			"sound_armed"	"UI/buttonrollover.wav"
 			"proportionaltoparent"	"1"
 			
 			"defaultfgColor_override"	"HudWhite"			
@@ -1051,7 +1061,9 @@
 			"pin_corner_to_sibling"	"4"	
 			"actionsignallevel"	"2"
 			"border_default"		"SRCBorderConvex"
-
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+			"sound_armed"	"UI/buttonrollover.wav"
 			"proportionaltoparent"	"1"
 			
 			"defaultfgColor_override"	"HudWhite"			
@@ -1086,7 +1098,9 @@
 			"pin_corner_to_sibling"	"4"	
 			"actionsignallevel"	"2"
 			"border_default"		"SRCBorderConvex"
-
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+			"sound_armed"	"UI/buttonrollover.wav"
 			"proportionaltoparent"	"1"
 			
 			"defaultfgColor_override"	"HudWhite"			
@@ -1121,7 +1135,9 @@
 			"pin_corner_to_sibling"	"4"	
 			"actionsignallevel"	"2"
 			"border_default"		"SRCBorderConvex"
-
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+			"sound_armed"	"UI/buttonrollover.wav"
 			"proportionaltoparent"	"1"
 			
 			"defaultfgColor_override"	"HudWhite"			
@@ -1156,7 +1172,9 @@
 			"pin_corner_to_sibling"	"4"	
 			"actionsignallevel"	"2"
 			"border_default"		"SRCBorderConvex"
-
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+			"sound_armed"	"UI/buttonrollover.wav"
 			"proportionaltoparent"	"1"
 			
 			"defaultfgColor_override"	"HudWhite"			
@@ -1190,7 +1208,9 @@
 			"pin_corner_to_sibling"	"4"	
 			"actionsignallevel"	"2"
 			"border_default"		"SRCBorderConvex"
-
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+			"sound_armed"	"UI/buttonrollover.wav"
 			"proportionaltoparent"	"1"
 			
 			"defaultfgColor_override"	"HudWhite"			
@@ -1224,7 +1244,9 @@
 			"pin_corner_to_sibling"	"4"	
 			"actionsignallevel"	"2"
 			"border_default"		"SRCBorderConvex"
-
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+			"sound_armed"	"UI/buttonrollover.wav"
 			"proportionaltoparent"	"1"
 			
 			"defaultfgColor_override"	"HudWhite"			
@@ -1246,7 +1268,9 @@
 			"command"		"motd_hide"
 			"actionsignallevel"	"2"
 			"paintBorder"	"0"
-
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+			"sound_armed"	"UI/buttonrollover.wav"
 			"textAlignment"	"center"
 			"font"			"Marlett6"
 			"paintbackground"	"0"
