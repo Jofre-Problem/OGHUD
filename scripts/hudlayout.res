@@ -8,7 +8,12 @@
 "#base"		"../basefiles/hudlayout.res"
 "Resource/HudLayout.res"
 {
- Doesnt work on dx81
+"MMDashBoardPopupContainer"
+{
+    "fieldname"        "MMDashBoardPopupContainer"
+    "ypos"            "-480"
+    "tall"            "600"
+}
 	"TransparentViewmodelMask"
 	{
 		//alpha doesn't work for this, you need to change the texture's alpha

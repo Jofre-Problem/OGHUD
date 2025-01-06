@@ -66,7 +66,7 @@
 	"DisconnectButton"
 	{
 		"label"			"Disconnect"
-		"command"		"engine none"	// bypass?
+		"command"		"engine disconnect"	// bypass?
 		"OnlyInGame"	"1"
 	}
 	"MutePlayersButton"

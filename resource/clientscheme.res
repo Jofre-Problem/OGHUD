@@ -378,7 +378,7 @@ Scheme
 
 		ScrollBarSlider.FgColor				"Gray"		// nob color
 		ScrollBarSlider.BgColor				"Blank"		// slider background color
-		ScrollBarSlider.Wide 12
+		ScrollBar.Wide 12
 
 		SectionedListPanel.HeaderTextColor	"Orange"
 		SectionedListPanel.HeaderBgColor	"Blank"
