@@ -8,12 +8,12 @@
 "#base"		"../basefiles/hudlayout.res"
 "Resource/HudLayout.res"
 {
-"MMDashBoardPopupContainer"
-{
-    "fieldname"        "MMDashBoardPopupContainer"
-    "ypos"            "-480"
-    "tall"            "600"
-}
+	"MMDashBoardPopupContainer"
+	{
+		"fieldname"        "MMDashBoardPopupContainer"
+		"ypos"            "-340"	// defined by tall on MMDashboard, dont change it
+		"tall"            "600"
+	}
 	"TransparentViewmodelMask"
 	{
 		//alpha doesn't work for this, you need to change the texture's alpha
