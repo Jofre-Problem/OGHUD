@@ -41,7 +41,7 @@
 		"proportionaltoparent"	"1"
 		"progress"		"0.5"
 
-		"fgcolor_override"	"117 107 94 30"
-		"bgcolor_override"	"0 0 0 0"
+		"fgcolor_override"	"255 255 255 255"
+		"bgcolor_override"	"255 255 255 255"
 	}
 }

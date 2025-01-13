@@ -1803,7 +1803,7 @@ event CasualCategory_Selected
 event CasualCategory_NotSelected
 {
 	Animate Shade BgColor "0 0 0 200" Deaccel 0 0.2
-	Animate Title		FgColor TanDark Deaccel 0 0.2
+	Animate Title		FgColor TanLight Deaccel 0 0.2
 }
 
 event HealthProgressBar_Selected
@@ -1813,7 +1813,7 @@ event HealthProgressBar_Selected
 
 event HealthProgressBar_NotSelected
 {
-	Animate HealthProgressBar	Alpha 50 Deaccel 0 0.2
+	Animate HealthProgressBar	Alpha 150 Deaccel 0 0.2
 }
 
 event MMenu_UpdateButton_StartGlow

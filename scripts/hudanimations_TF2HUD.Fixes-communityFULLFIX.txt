@@ -1,0 +1,9 @@
+event HealthProgressBar_Selected
+{
+	Animate HealthProgressBar	Alpha 255 Deaccel 0 0.2
+}
+
+event HealthProgressBar_NotSelected
+{
+	Animate HealthProgressBar	Alpha 255 Deaccel 0 0.2
+}
