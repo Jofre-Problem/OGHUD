@@ -8,6 +8,17 @@
 "#base"		"../basefiles/hudlayout.res"
 "Resource/HudLayout.res"
 {
+	MainMenuOverride
+	{
+		"ControlName"	"CHudMainMenuOverride"
+		"enabled" "1"
+		"DashboardDimmer"
+    	{
+			"ControlName"	"CDimmerButton"
+        	"wide"                "420"
+        	"paintbackground"    "1"
+    	}
+	}	
 	"MMDashBoardPopupContainer"
 	{
 		"fieldname"        "MMDashBoardPopupContainer"

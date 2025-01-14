@@ -12,7 +12,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"labelText"		"Class Tips"
+		"labelText"		"Class Tips:"
 		"textAlignment"	"north-west"
 		"dulltext"		"0"
 		"brighttext"	"1"
@@ -25,7 +25,7 @@
 	{
 		"ControlName"	"PanelListPanel"
 		"fieldName"		"ClassTipsListPanel"
-		"xpos"			"7"
+		"xpos"			"3"
 		"ypos"			"30"
 		"zpos"			"5"
 		"wide"			"225"

@@ -91,7 +91,7 @@
 				"pinCorner"		"0"
 				"visible"		"1"
 				"enabled"		"1"
-				"border"		"TFThinLineBorder"
+				"border"		"TFThinLineBorder2"
 			}
 	
 			"ActualLabel"
@@ -122,12 +122,12 @@
 			"xpos"			"c+10"
 			"ypos"			"120"
 			"wide"			"285"
-			"tall"			"280"
+			"tall"			"200"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"border"		"TFThinLineBorder"
+			"border"		"TFThinLineBorder2"
 		}
 
 		"Title"
@@ -410,22 +410,15 @@
 			"ControlName"		"EditablePanel"
 			"fieldName"		"AveragesBG"
 			"xpos"			"c-295"
-			"xpos_hidef"			"c-283"
-			"xpos_lodef"			"c-283"
+
 			"ypos"			"165"
-			"ypos_hidef"			"22"
-			"ypos_lodef"			"22"
 			"wide"			"406"
-			"wide_hidef"	"566"
-			"wide_lodef"	"566"
-			"tall"			"300"
-			"tall_hidef"			"633"
-			"tall_lodef"			"633"
+			"tall"			"235"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"border"		"TFThinLineBorder"
+			"border"		"TFThinLineBorder2"
 		}
 		"AveragesLabel"
 		{
@@ -1796,23 +1789,14 @@
 			"ControlName"		"EditablePanel"
 			"fieldName"		"RecordsBG"
 			"xpos"			"c+115"
-			"xpos_hidef"			"c+95"
 			"ypos"			"165"
-			"ypos_hidef"			"115"
+
 			"wide"			"200"
-			"wide_hidef"			"225"
-			"tall"			"260"
-			"tall_hidef"			"633"
-			"tall_lodef"			"633"
-			"autoResize"	"0"
-			"pinCorner"		"0"
+
+			"tall"			"220"
 			"visible"		"1"
-			"visible_hidef"		"0"
-			"visible_lodef"		"0"
-			"enabled"		"1"
-			"enabled_hidef"		"0"			
-			"enabled_lodef"		"0"			
-			"border"		"TFThinLineBorder"
+			"enabled"		"1"	
+			"border"		"TFThinLineBorder2"
 		}
 		"RecordsLabel1"
 		{
@@ -2604,12 +2588,35 @@
 		"ypos"			"412"
 		"zpos"			"12"
 		"wide"			"35"
-		"tall"			"35"
+		"tall"			"0"
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			""	
 		"scaleImage"	"1"	
 	}
+	"TipTextbefore"
+	{
+		"ControlName"		"Label"
+		"fieldName"		"TipTextbefore"
+		"font"			"ChalkboardTitle"
+		"labelText"		"TIP"
+		"textAlignment"			"west"
+
+		"xpos"			"c-245-34"
+
+		"ypos"			"rs1-28"
+
+		"zpos"			"12"
+		"wide"			"350"
+
+		"tall"			"48"
+
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"wrap"			"1"
+	}		
 	"TipText"
 	{
 		"ControlName"		"Label"

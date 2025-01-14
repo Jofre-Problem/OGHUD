@@ -3518,6 +3518,18 @@ Scheme
 			"draw_corner_width"		"8"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"8"	
 		}
+		TFThinLineBorder2
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			//"image"					"../hud/tournament_panel_black"
+			"image"					"replay/thumbnails/tournament_panel_black_alpha"
+			"src_corner_height"		"23"				// pixels inside the image
+			"src_corner_width"		"23"
+			"draw_corner_width"		"8"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"8"	
+		}		
 		TFFatLineBorderOpaque
 		{
 			"bordertype"			"scalable_image"
