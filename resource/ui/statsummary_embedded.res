@@ -83,13 +83,36 @@
 		"visible"		"0"
 		"enabled"		"1"
 	}						
+	"StatData"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"	"StatData"
+		"xpos"		"0"
+		"ypos"		"0-120"
+		"zpos"		"1"
+		"wide"		"f0"
+		"tall"		"480"
+		"visible"	"1"
+		"enabled"	"1"
+	}	
+	"TipTextbefore"
+	{
 
+
+		"ypos"			"rs1-28-120"
+
+	}		
+	"TipText"
+	{
+
+		"ypos"			"405-120"
+	}	
 	"NextTipButton" [$WIN32]
 	{
 		"ControlName"		"Button"
 		"fieldName"		"NextTipButton"
-		"xpos"			"c-248"
-		"ypos"			"310"
+		"xpos"			"c-244"
+		"ypos"			"330"
 		"zpos"			"6"
 		"wide"			"90"
 		"tall"			"15"
