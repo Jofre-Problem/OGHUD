@@ -1714,6 +1714,25 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
+		
+		"classnamelabel"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"classnamelabel"
+			"font"			"HudFontSmallBold"
+		//	"labelText"		"#CMenu_ClassHighlightPanel_Title"
+			"textAlignment"	"north-west"
+			"xpos"			"10"
+			"ypos"			"10"
+			"wide"			"210"
+			"tall"			"20"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"wrap"			"1"
+			"fgcolor_override" "46 43 42 255"
+		}	
 	}
 	
 	"ClassHighlightPanel"

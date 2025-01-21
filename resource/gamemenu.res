@@ -56,7 +56,19 @@
 		"command"		"engine none"
 		"OnlyInGame"	"1"
 	}	
+	"CreateServerButton"
+	{
+		"label"			"CREATE SERVER"
+		"command"		"OpenCreateMultiplayerGameDialog"
+		"OnlyAtMenu"	"1"
+	}		
 	//In-Game Buttons
+	"CreateServerButton_IG"
+	{
+		"label"			"CREATE SERVER"
+		"command"		"OpenCreateMultiplayerGameDialog"
+		"OnlyInGame"	"1"
+	}			
 	"ResumeGameButton"
 	{
 		"label"			"Resume Game"

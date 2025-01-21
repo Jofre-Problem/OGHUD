@@ -207,6 +207,7 @@ Scheme
 
     "BorderDark"			"40 40 40 196"
 		"BorderBright"			"200 200 200 196"
+		"BorderBright2"			"200 200 200 128" // couldnt find the original
 		"BorderBrightSolid"			"200 200 200 255"
 		"BGBright"				"160 160 160 128"
 		"BGBrightSolid"				"160 160 160 255"
@@ -232,6 +233,12 @@ Scheme
 		
 		"PanelText"			"255 177 0 255"
 		"PanelTextDisabled"	"126 126 126 255"
+
+		// TF2 2007 
+		"buttonfgcolor" "116 107 94 255"
+		"buttonbgcolor" "251 236 203 255"
+		"buttonarmed_fg" "42 39 37 255"
+		"buttonarmed_bg" "189 81 14 255"			
 	}
 
 	///////////////////// BASE SETTINGS ////////////////////////
@@ -253,10 +260,10 @@ Scheme
 		Replay.RenderDialog.BgColor							"LighterDarkBrown"
 		
 		Econ.Dialog.BgColor									"Blank"
-		Econ.Button.BgColor									"TanDark"
-		Econ.Button.FgColor									"TanLight"
-		Econ.Button.ArmedBgColor							"TFOrange"
-		Econ.Button.ArmedFgColor							"TanLight"
+		Econ.Button.BgColor									"buttonbgcolor"
+		Econ.Button.FgColor									"buttonfgcolor"
+		Econ.Button.ArmedBgColor							"buttonarmed_bg"
+		Econ.Button.ArmedFgColor							"buttonarmed_fg"
 		Econ.Button.DepressedBgColor						"TFOrange"
 		Econ.Button.DepressedFgColor						"Black"
 		
@@ -271,11 +278,14 @@ Scheme
 		Border.Bright					"Blank"		// the lit side of a control
 		Border.Dark						"Black"		// the dark/unlit side of a control
 		Border.Selection				"Gray"			// the additional border color for displaying the default/selected button
-
-		Button.TextColor				"TanLight"
-		Button.BgColor					"TanDark"
-		Button.ArmedTextColor			"TanLight"
-		Button.ArmedBgColor				"TFOrange"
+	//	"defaultfgcolor_override" "124 106 78 255"
+	//	"defaultbgcolor_override" "253 235 200 255"
+	//	"armedfgcolor_override" "62 39 21 255"
+	//	"armedbgcolor_override" "189 86 10 255"	
+		Button.TextColor				"buttonfgcolor"
+		Button.BgColor					"buttonbgcolor"
+		Button.ArmedTextColor			"buttonarmed_fg"
+		Button.ArmedBgColor				"buttonarmed_bg"
 		Button.SelectedTextColor		"TanLight"
 		Button.SelectedBgColor			"TFOrange"
 		Button.DepressedTextColor		"Black"
@@ -3139,7 +3149,16 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		
+		MenuButton2
+		{
+			"1"
+			{
+				"name"		"TF2 Build"
+				"tall"		"8"
+				"weight"	"0"
+				"antialias" "1"
+			}
+		}		
 		"SRCTitle"
 		{
 			"1"

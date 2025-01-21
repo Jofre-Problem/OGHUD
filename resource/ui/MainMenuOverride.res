@@ -1,4 +1,5 @@
 #base "mainmenuoverride_preload.res"
+#base "menu_ingame.res"
 #base "../../../../cfg/og_hud_custom_menu.txt"
 "Resource/UI/MainMenuOverride.res"
 {
@@ -59,12 +60,12 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"Logo"
-		"xpos"			"15"
-		"ypos"			"192"
+		"xpos"			"23"
+		"ypos"			"197"
 		"zpos"			"-150"
-		"wide"			"183"
-		"tall"			"46"
-    "autoResize"	"0"
+		"wide"			"179"
+		"tall"			"44"
+    	"autoResize"	"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../logo/TF2_Logo"
@@ -323,7 +324,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Notifications_CountLabel"
-			"font"			"MenuButton"
+			"font"			"MenuButton2"
 			"labelText"		"%noticount%"
 			"textAlignment"	"west"
 			"xpos"			"90"
@@ -353,7 +354,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"		"NEW NOTIFICATIONS!"
-			"font"			"MenuButton"
+			"font"			"MenuButton2"
 			"textAlignment"	"west"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -367,8 +368,8 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"sound_armed"	"UI/buttonrollover.wav"
 			"paintbackground" "0"
-			"defaultfgColor_override"	"HudWhite"			
-			"armedfgColor_override"	"BorderBright"
+			"defaultfgColor_override"	"251 246 242 255"			
+			"armedfgColor_override"	"84 74 72 255"
 			
 			"SubImage"
 			{
@@ -736,7 +737,7 @@
 
 			"proportionaltoparent"	"1"
 			
-			"defaultfgColor_override"	"HudWhite"			
+			"defaultfgColor_override"	"251 246 242 255"			
 			"armedfgColor_override"	"HudWhite"			
 		}
 	
@@ -773,7 +774,7 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"sound_armed"	"UI/buttonrollover.wav"			
-			"defaultfgColor_override"	"HudWhite"			
+			"defaultfgColor_override"	"251 246 242 255"			
 			"armedfgColor_override"	"HudWhite"			
 		}
 		
@@ -810,7 +811,7 @@
 				"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"sound_armed"	"UI/buttonrollover.wav"		
-			"defaultfgColor_override"	"HudWhite"			
+			"defaultfgColor_override"	"251 246 242 255"			
 			"armedfgColor_override"	"HudWhite"			
 		}
 		
@@ -847,7 +848,7 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"sound_armed"	"UI/buttonrollover.wav"			
-			"defaultfgColor_override"	"HudWhite"			
+			"defaultfgColor_override"	"251 246 242 255"			
 			"armedfgColor_override"	"HudWhite"			
 		}
 		
@@ -884,7 +885,7 @@
 			"sound_armed"	"UI/buttonrollover.wav"
 			"proportionaltoparent"	"1"
 			
-			"defaultfgColor_override"	"HudWhite"			
+			"defaultfgColor_override"	"251 246 242 255"			
 			"armedfgColor_override"	"HudWhite"			
 		}
 		
@@ -921,7 +922,7 @@
 			"sound_armed"	"UI/buttonrollover.wav"
 			"proportionaltoparent"	"1"
 			
-			"defaultfgColor_override"	"HudWhite"			
+			"defaultfgColor_override"	"251 246 242 255"			
 			"armedfgColor_override"	"HudWhite"			
 		}
 		
@@ -958,7 +959,7 @@
 			"sound_armed"	"UI/buttonrollover.wav"
 			"proportionaltoparent"	"1"
 			
-			"defaultfgColor_override"	"HudWhite"			
+			"defaultfgColor_override"	"251 246 242 255"			
 			"armedfgColor_override"	"HudWhite"			
 		}
 		
@@ -995,7 +996,7 @@
 			"sound_armed"	"UI/buttonrollover.wav"
 			"proportionaltoparent"	"1"
 			
-			"defaultfgColor_override"	"HudWhite"			
+			"defaultfgColor_override"	"251 246 242 255"			
 			"armedfgColor_override"	"HudWhite"			
 		}
 		
@@ -1032,7 +1033,7 @@
 			"sound_armed"	"UI/buttonrollover.wav"
 			"proportionaltoparent"	"1"
 			
-			"defaultfgColor_override"	"HudWhite"			
+			"defaultfgColor_override"	"251 246 242 255"			
 			"armedfgColor_override"	"HudWhite"			
 		}
 		
@@ -1069,7 +1070,7 @@
 			"sound_armed"	"UI/buttonrollover.wav"
 			"proportionaltoparent"	"1"
 			
-			"defaultfgColor_override"	"HudWhite"			
+			"defaultfgColor_override"	"251 246 242 255"			
 			"armedfgColor_override"	"HudWhite"			
 		}
 		"Customization"
@@ -1105,7 +1106,7 @@
 			"sound_armed"	"UI/buttonrollover.wav"
 			"proportionaltoparent"	"1"
 			
-			"defaultfgColor_override"	"HudWhite"			
+			"defaultfgColor_override"	"251 246 242 255"			
 			"armedfgColor_override"	"HudWhite"			
 		}		
 		"ContractButton"
@@ -1141,7 +1142,7 @@
 			"sound_armed"	"UI/buttonrollover.wav"
 			"proportionaltoparent"	"1"
 			
-			"defaultfgColor_override"	"HudWhite"			
+			"defaultfgColor_override"	"251 246 242 255"			
 			"armedfgColor_override"	"HudWhite"			
 		}
 		
@@ -1862,10 +1863,10 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"SafeMode"
-		"xpos"			"50"
+		"xpos"			"rs1"
 		"ypos"			"10"
 		"zpos"			"1"
-		"wide"			"400"
+		"wide"			"350"
 		"tall"			"175"
 		"visible"		"0"
 		
@@ -2263,7 +2264,7 @@
 
 					"Slider"
 					{
-						"fgcolor_override"	"BorderBright"
+						"fgcolor_override"	"84 74 72 255"
 						"paintborder"		"0"
 					}
 			
@@ -2773,7 +2774,7 @@
 		"ControlName"    "editablePanel"
 		
 		"ypos" "270+90"	// higher ypos - lower goes
-		"xpos" 107 // unsure about the xpos	
+		"xpos" 107+14+p0.001 // unsure about the xpos	
 		alpha 0
 	}
 	"partychat"
@@ -2838,8 +2839,8 @@
 		{
 			"ControlName"	"EditablePanel"
 			"fieldname"		"FindGameButton"
-			"xpos"			"24"
-			"ypos"			"c0"
+		"xpos"			"29+p0.001"
+		"ypos"			"c7+p0.002"
 			"zpos"			"1"
 			"wide"			"74"
 			"tall"			"14"
@@ -2857,7 +2858,7 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"labelText"		"FIND SERVERS"
-				"font"			"MenuButton"
+				"font"			"MenuButton2"
 				"textAlignment"	"west"
 				"command"		"find_game"
 				"paintbackground"	"0"
@@ -2868,8 +2869,8 @@
 				"sound_released"	"UI/buttonclickrelease.wav"
 				"sound_armed"	"UI/buttonrollover.wav"
 				
-				"defaultfgColor_override"	"Blank"			
-				"armedfgColor_override"	"BorderBright"
+				"defaultfgColor_override"	"251 246 242 255"			
+				"armedfgColor_override"	"84 74 72 255"
 				
 				"proportionaltoparent"	"1"	
 
@@ -2885,8 +2886,8 @@
 		{
 			"ControlName"	"EditablePanel"
 			"fieldname"		"FindGameButton_IG"
-			"xpos"			"24"
-			"ypos"			"310"
+		"xpos"			"29+p0.001"
+		"ypos"			"317"
 			"zpos"			"1"
 			"wide"			"74"
 			"tall"			"14"
@@ -2904,7 +2905,7 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"labelText"		"FIND SERVERS"
-				"font"			"MenuButton"
+				"font"			"MenuButton2"
 				"textAlignment"	"west"
 				"command"		"find_game"
 				"paintbackground"	"0"
@@ -2915,8 +2916,9 @@
 				"sound_released"	"UI/buttonclickrelease.wav"
 				"sound_armed"	"UI/buttonrollover.wav"
 				
-				"defaultfgColor_override"	"blank"			
-				"armedfgColor_override"	"BorderBright"
+				"defaultfgColor_override"	"251 246 242 255"			
+	//			"defaultfgColor_override"	"HUDWHITE"	
+				"armedfgColor_override"	"84 74 72 255"
 				
 				"proportionaltoparent"	"1"			
 			}		
@@ -2945,7 +2947,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"labelText"		"CGHAT"
-			"font"			"MenuButton"
+			"font"			"MenuButton2"
 			"textAlignment"	"west"
 			"command"		"toggle_chat"
 			"paintbackground"	"0"
@@ -2956,9 +2958,9 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"sound_armed"	"UI/buttonrollover.wav"
 			
-			"defaultfgColor_override"	"HudWhite"			
+			"defaultfgColor_override"	"251 246 242 255"			
 			"disabledfgColor2_override"	"HudWhite"			
-			"armedfgColor_override"	"BorderBright"
+			"armedfgColor_override"	"84 74 72 255"
 			
 			"proportionaltoparent"	"1"			
 		}		
@@ -2967,8 +2969,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"FindGameDummy"
-		"xpos"			"24"
-		"ypos"			"c0"
+		"xpos"			"29+p0.001"
+		"ypos"			"c7+p0.002"		
 		"zpos"			"-2"
 		"wide"			"74"
 		"tall"			"14"
@@ -2986,29 +2988,28 @@
 			"visible"		"1"
 			"enabled"		"0"
 			"labelText"		"FIND SERVERS"
-			"font"			"MenuButton"
+			"font"			"MenuButton2"
 			"textAlignment"	"west"
 			"command"		"find_game"
 			"paintbackground"	"0"
 			"paintborder"	"0"
 			"actionsignallevel"	"2"
-			
+			"alpha" "0"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"sound_armed"	"UI/buttonrollover.wav"
 			
-			"defaultfgColor_override"	"HudWhite"			
+			"defaultfgColor_override"	"251 246 242 255"			
 			"disabledfgColor2_override"	"HudWhite"			
-			"armedfgColor_override"	"BorderBright"
+			"armedfgColor_override"	"84 74 72 255"
 			
 			"proportionaltoparent"	"1"			
 		}		
 	}
-	
-	"SettingsButton2"
+	"CreateServerButton"
 	{
 		"ControlName"	"EditablePanel"
-		"fieldName"		"SettingsButton2"
+		"fieldName"		"CreateServerButton"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"1"
@@ -3026,8 +3027,50 @@
 			"tall"			"f0"
 			"visible"		"1"
 			"enabled"		"1"
+			"labelText"		"CREATE SERVER"
+			"font"			"MenuButton2"
+			"textAlignment"	"west"
+			"command"		"OpenCreateMultiplayerGameDialog"
+			"paintbackground"	"0"
+			"actionsignallevel"	"2"
+			"paintborder"	"0"
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+			"sound_armed"	"UI/buttonrollover.wav"
+			
+			"defaultfgColor_override"	"251 246 242 255"			
+			"armedfgColor_override"	"84 74 72 255"
+			
+			"proportionaltoparent"	"1"			
+		}	
+		
+		"pin_to_sibling"		"FindGameDummy"
+		"pin_to_sibling_corner"	"2"
+		"pin_corner_to_sibling"	"0"
+	}	
+	"SettingsButton2"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"SettingsButton2"
+		"xpos"			"0"
+		"ypos"			"0-p0.001"
+		"zpos"			"1"
+		"wide"			"74"
+		"tall"			"14"
+		"visible"		"1"
+
+		"SubButton"
+		{
+			"ControlName"	"CExImageButton"
+			"fieldName"		"SubButton"
+			"xpos"			"0"
+			"ypos"			"0"
+			"wide"			"f0"
+			"tall"			"f0"
+			"visible"		"1"
+			"enabled"		"1"
 			"labelText"		"OPTIONS"
-			"font"			"MenuButton"
+			"font"			"MenuButton2"
 			"textAlignment"	"west"
 			"command"		"OpenOptionsDialog"
 			"paintbackground"	"0"
@@ -3037,13 +3080,13 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"sound_armed"	"UI/buttonrollover.wav"
 			
-			"defaultfgColor_override"	"HudWhite"			
-			"armedfgColor_override"	"BorderBright"
+			"defaultfgColor_override"	"251 246 242 255"			
+			"armedfgColor_override"	"84 74 72 255"
 			
 			"proportionaltoparent"	"1"			
 		}	
 		
-		"pin_to_sibling"		"FindGameDummy"
+		"pin_to_sibling"		"CreateServerButton"
 		"pin_to_sibling_corner"	"2"
 		"pin_corner_to_sibling"	"0"
 	}
@@ -3070,7 +3113,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"labelText"		"OPTIONS"
-			"font"			"MenuButton"
+			"font"			"MenuButton2"
 			"textAlignment"	"west"
 			"command"		"OpenOptionsDialog"
 			"paintbackground"	"0"
@@ -3080,8 +3123,8 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"sound_armed"	"UI/buttonrollover.wav"
 			
-			"defaultfgColor_override"	"HudWhite"			
-			"armedfgColor_override"	"BorderBright"
+			"defaultfgColor_override"	"251 246 242 255"			
+			"armedfgColor_override"	"84 74 72 255"
 			
 			"proportionaltoparent"	"1"			
 		}	
@@ -3112,7 +3155,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"labelText"		"OPTIONS"
-			"font"			"MenuButton"
+			"font"			"MenuButton2"
 			"textAlignment"	"west"
 			"command"		"OpenOptionsDialog"
 			"paintbackground"	"0"
@@ -3122,8 +3165,8 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"sound_armed"	"UI/buttonrollover.wav"
 			
-			"defaultfgColor_override"	"HudWhite"			
-			"armedfgColor_override"	"BorderBright"
+			"defaultfgColor_override"	"251 246 242 255"			
+			"armedfgColor_override"	"84 74 72 255"
 			
 			"proportionaltoparent"	"1"			
 		}	
@@ -3155,7 +3198,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"labelText"		"OPTIONS"
-			"font"			"MenuButton"
+			"font"			"MenuButton2"
 			"textAlignment"	"west"
 			"command"		"OpenOptionsDialog"
 			"paintbackground"	"0"
@@ -3165,8 +3208,8 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"sound_armed"	"UI/buttonrollover.wav"
 			
-			"defaultfgColor_override"	"HudWhite"			
-			"armedfgColor_override"	"BorderBright"
+			"defaultfgColor_override"	"251 246 242 255"			
+			"armedfgColor_override"	"84 74 72 255"
 			
 			"proportionaltoparent"	"1"			
 		}	
@@ -3176,493 +3219,9 @@
 		"pin_corner_to_sibling"	"0"
 	}
 
-	"ResumeGameButton"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldname"		"ResumeGameButton"
-		"xpos"			"24"
-		"ypos"			"c0"
-		"zpos"			"1"
-		"wide"			"74"
-		"tall"			"14"
-		"visible"		"1"
 
-		"SubButton"
-		{
-			"ControlName"	"CExImageButton"
-			"fieldName"		"SubButton"
-			"xpos"			"0"
-			"ypos"			"0"
-			"wide"			"f0"
-			"tall"			"f0"
-			"visible"		"1"
-			"enabled"		"1"
-			"labelText"		"FIND SERVERS"
-			"font"			"MenuButton"
-			"textAlignment"	"west"
-			"command"		"OpenServerBrowser"
-			"paintbackground"	"0"
-			"actionsignallevel"	"2"
-			"paintborder"	"0"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
-			"sound_armed"	"UI/buttonrollover.wav"
-			
-			"defaultfgColor_override"	"HudWhite"			
-			"armedfgColor_override"	"BorderBright"
-			
-			"proportionaltoparent"	"1"			
-		}		
-	}
-	
-	"DisconnectButton"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldname"		"DisconnectButton"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"1"
-		"wide" "74"//"74"
-		"tall"			"14"
-		"visible"		"1"
 
-		"SubButton"
-		{
-			"ControlName"	"CExImageButton"
-			"fieldName"		"SubButton"
-			"xpos"			"0"
-			"ypos"			"0"
-			"wide"			"f0"
-			"tall"			"f0"
-			"visible"		"1"
-			"enabled"		"1"
-			"labelText"		"Disconnect"
-			"font"			"MenuButton"
-			"textAlignment"	"west"
-			"command"		"engine disconnect"
-			"paintbackground"	"0"
-			"actionsignallevel"	"2"
-			"paintborder"	"0"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
-			"sound_armed"	"UI/buttonrollover.wav"
-			
-			"defaultfgColor_override"	"HudWhite"			
-			"armedfgColor_override"	"BorderBright"
-			
-			"proportionaltoparent"	"1"			
-		}		
-		
-		"pin_to_sibling"		"ResumeGameButton"
-		"pin_to_sibling_corner"	"2"
-		"pin_corner_to_sibling"	"0"
-	}
-	
-	"ReportPlayerButton"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldname"		"ReportPlayerButton"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"1"
-		"wide"			"74"
-		"tall"			"14"
-		"visible"		"1"
 
-		"SubButton"
-		{
-			"ControlName"	"CExImageButton"
-			"fieldName"		"SubButton"
-			"xpos"			"0"
-			"ypos"			"0"
-			"wide"			"p1"
-			"tall"			"p1"
-			"autoResize"	"0"
-			"pinCorner"		"3"
-			"visible"		"1"
-			"enabled"		"1"
-			"tabPosition"	"0"
-			"labelText"		"REPORT PLAYER"
-			"font"			"MenuButton"
-			"textAlignment"	"west"
-			"dulltext"		"0"
-			"brighttext"	"0"
-			"default"		"1"
-			"auto_wide_tocontents"	"0"
-			"paintborder"	"0"
-			"paintbackground"	"0"
-			
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
-			"sound_armed"	"UI/buttonrollover.wav"
-			
-			"defaultfgColor_override"	"HudWhite"			
-			"armedfgColor_override"	"BorderBright"
-
-			"proportionaltoparent"	"1"
-			
-			"SubImage"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SubImage"
-				"xpos"			"5"
-				"ypos"			"cs-0.5"
-				"zpos"			"1"
-				"wide"			"15"
-				"tall"			"15"
-				"visible"		"0"
-				"enabled"		"1"
-				"image"			"glyph_create"
-				"scaleImage"	"1"
-				"proportionaltoparent"	"1"
-			}				
-		}
-		
-		"pin_to_sibling"		"DisconnectButton"
-		"pin_to_sibling_corner"	"2"
-		"pin_corner_to_sibling"	"0"
-	}
-
-	"CallVoteButton"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldname"		"CallVoteButton"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"12"
-		"wide"			"74"
-		"tall"			"14"
-		"visible"		"1"
-
-		"SubButton"
-		{
-			"ControlName"	"CExImageButton"
-			"fieldName"		"SubButton"
-			"xpos"			"0"
-			"ypos"			"0"
-			"wide"			"p1"
-			"tall"			"14"
-			"autoResize"	"0"
-			"pinCorner"		"3"
-			"visible"		"1"
-			"enabled"		"1"
-			"tabPosition"	"0"
-			"labelText"		"CALL VOTE"
-			"font"			"MenuButton"
-			"textAlignment"	"west"
-			"dulltext"		"0"
-			"brighttext"	"0"
-			"default"		"1"
-			"auto_wide_tocontents"	"0"
-			"paintborder"	"0"
-			"paintborder"	"0"
-			"paintbackground"	"0"
-			
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
-			"sound_armed"	"UI/buttonrollover.wav"
-			
-			"defaultfgColor_override"	"HudWhite"			
-			"armedfgColor_override"	"BorderBright"
-			
-			"proportionaltoparent"	"1"
-			
-			"SubImage"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SubImage"
-				"xpos"			"cs-0.5"
-				"ypos"			"cs-0.5"
-				"zpos"			"1"
-				"wide"			"15"
-				"tall"			"15"
-				"visible"		"0"
-				"enabled"		"1"
-				"image"			"glyph_create"
-				"scaleImage"	"1"
-				"proportionaltoparent"	"1"
-			}				
-		}
-		"pin_to_sibling"		"ReportPlayerButton"
-		"pin_to_sibling_corner"	"2"
-		"pin_corner_to_sibling"	"0"
-	}
-	"MutePlayersButton"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldname"		"MutePlayersButton"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"12"
-		"wide"			"74"
-		"tall"			"14"
-		"visible"		"1"
-
-		"SubButton"
-		{
-			"ControlName"	"CExImageButton"
-			"fieldName"		"SubButton"
-			"xpos"			"0"
-			"ypos"			"0"
-			"wide"			"p1"
-			"tall"			"14"
-			"autoResize"	"0"
-			"pinCorner"		"3"
-			"visible"		"1"
-			"enabled"		"1"
-			"tabPosition"	"0"
-			"labeltext"		"MUTE PLAYER"
-			"font"			"MenuButton"
-			"textAlignment"	"west"
-			"dulltext"		"0"
-			"brighttext"	"0"
-			"default"		"1"
-			"paintborder"	"0"
-			"paintborder"	"0"
-			"paintbackground"	"0"
-			
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
-			"sound_armed"	"UI/buttonrollover.wav"
-			
-			"defaultfgColor_override"	"HudWhite"			
-			"armedfgColor_override"	"BorderBright"
-			"proportionaltoparent"	"0"
-			
-			"SubImage"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SubImage"
-				"xpos"			"cs-0.5"
-				"ypos"			"cs-0.5"
-				"zpos"			"1"
-				"wide"			"15"
-				"tall"			"15"
-				"visible"		"0"
-				"enabled"		"1"
-				"image"			"glyph_create"
-				"scaleImage"	"1"
-				"proportionaltoparent"	"1"
-			}				
-		}
-		"pin_to_sibling"		"CallVoteButton"
-		"pin_to_sibling_corner"	"2"
-		"pin_corner_to_sibling"	"0"
-	}
-
-	"FindGameDummy_IG"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldname"		"FindGameDummy_IG"
-		"xpos"			"24"
-		"ypos"			"310"
-		"zpos"			"-2"
-		"wide"			"74"
-		"tall"			"14"
-		"visible"		"1"
-
-		"SubButton"
-		{
-			"ControlName"	"CExImageButton"
-			"fieldName"		"SubButton"
-			"xpos"			"0"
-			"ypos"			"0"
-			"wide"			"f0"
-			"tall"			"f0"
-			"visible"		"1"
-			"enabled"		"0"
-			"labelText"		"FIND SERVERS"
-			"font"			"MenuButton"
-			"textAlignment"	"west"
-			"command"		"OpenServerBrowser"
-			"paintbackground"	"0"
-			"actionsignallevel"	"2"
-			"paintborder"	"0"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
-			"sound_armed"	"UI/buttonrollover.wav"
-			
-			"disabledfgColor2_override"	"HudWhite"			
-			"armedfgColor_override"	"BorderBright"
-			
-			"proportionaltoparent"	"1"			
-		}		
-	}
-	
-	
-		
-	"SettingsButton2_IG"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"SettingsButton2_IG"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"1"
-		"wide"			"74"
-		"tall"			"14"
-		"visible"		"1"
-
-		"SubButton"
-		{
-			"ControlName"	"CExImageButton"
-			"fieldName"		"SubButton"
-			"xpos"			"0"
-			"ypos"			"0"
-			"wide"			"f0"
-			"tall"			"f0"
-			"visible"		"1"
-			"enabled"		"1"
-			"labelText"		"OPTIONS"
-			"font"			"MenuButton"
-			"textAlignment"	"west"
-			"command"		"OpenOptionsDialog"
-			"paintbackground"	"0"
-			"actionsignallevel"	"2"
-			"paintborder"	"0"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
-			"sound_armed"	"UI/buttonrollover.wav"
-			
-			"defaultfgColor_override"	"HudWhite"			
-			"armedfgColor_override"	"BorderBright"
-			
-			"proportionaltoparent"	"1"			
-		}	
-		
-		"pin_to_sibling"		"FindGameDummy_IG"
-		"pin_to_sibling_corner"	"2"
-		"pin_corner_to_sibling"	"0"
-	}
-	
-	"ItemsButton2_IG"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"ItemsButton2_IG"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"1"
-		"wide"			"74"
-		"tall"			"14"
-		"visible"		"1"
-
-		"SubButton"
-		{
-			"ControlName"	"CExImageButton"
-			"fieldName"		"SubButton"
-			"xpos"			"0"
-			"ypos"			"0"
-			"wide"			"f0"
-			"tall"			"f0"
-			"visible"		"1"
-			"enabled"		"1"
-			"labelText"		"OPTIONS"
-			"font"			"MenuButton"
-			"textAlignment"	"west"
-			"command"		"OpenOptionsDialog"
-			"paintbackground"	"0"
-			"actionsignallevel"	"2"
-			"paintborder"	"0"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
-			"sound_armed"	"UI/buttonrollover.wav"
-			
-			"defaultfgColor_override"	"HudWhite"			
-			"armedfgColor_override"	"BorderBright"
-			
-			"proportionaltoparent"	"1"			
-		}	
-		
-		"pin_to_sibling"		"SettingsButton2_IG"
-		"pin_to_sibling_corner"	"2"
-		"pin_corner_to_sibling"	"0"
-	}
-	
-	
-	"MotdButton2_IG"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"MotdButton2_IG"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"1"
-		"wide"			"74"
-		"tall"			"14"
-		"visible"		"1"
-
-		"SubButton"
-		{
-			"ControlName"	"CExImageButton"
-			"fieldName"		"SubButton"
-			"xpos"			"0"
-			"ypos"			"0"
-			"wide"			"f0"
-			"tall"			"f0"
-			"visible"		"1"
-			"enabled"		"1"
-			"labelText"		"OPTIONS"
-			"font"			"MenuButton"
-			"textAlignment"	"west"
-			"command"		"OpenOptionsDialog"
-			"paintbackground"	"0"
-			"actionsignallevel"	"2"
-			"paintborder"	"0"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
-			"sound_armed"	"UI/buttonrollover.wav"
-			
-			"defaultfgColor_override"	"HudWhite"			
-			"armedfgColor_override"	"BorderBright"
-			
-			"proportionaltoparent"	"1"			
-		}	
-		
-		"pin_to_sibling"		"ItemsButton2_IG"
-		"pin_to_sibling_corner"	"2"
-		"pin_corner_to_sibling"	"0"
-	}
-	
-	"QuitButton2_IG"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"QuitButton2_IG"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"1"
-		"wide"			"74"
-		"tall"			"14"
-		"visible"		"1"
-
-		"SubButton"
-		{
-			"ControlName"	"CExImageButton"
-			"fieldName"		"SubButton"
-			"xpos"			"0"
-			"ypos"			"0"
-			"wide"			"f0"
-			"tall"			"f0"
-			"visible"		"1"
-			"enabled"		"1"
-			"labelText"		"OPTIONS"
-			"font"			"MenuButton"
-			"textAlignment"	"west"
-			"command"		"OpenOptionsDialog"
-			"paintbackground"	"0"
-			"actionsignallevel"	"2"
-			"paintborder"	"0"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
-			"sound_armed"	"UI/buttonrollover.wav"
-			
-			"defaultfgColor_override"	"HudWhite"			
-			"armedfgColor_override"	"BorderBright"
-			
-			"proportionaltoparent"	"1"			
-		}	
-		
-		"pin_to_sibling"		"MotdButton2_IG"
-		"pin_to_sibling_corner"	"2"
-		"pin_corner_to_sibling"	"0"
-	}
 
 	"SettingsButton"
 	{
