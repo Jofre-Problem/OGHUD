@@ -58,6 +58,7 @@
 				"tall"			"13"
 				"visible"		"1"
 				"bgcolor_override"		"0 0 0 0"
+				"defaultbgcolor_override" "149 134 113 255"
 				"noitem_textcolor"		"117 107 94 255"
 				"PaintBackgroundType"	"2"
 				"paintborder"	"1"

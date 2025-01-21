@@ -286,7 +286,7 @@ Scheme
 		Button.BgColor					"buttonbgcolor"
 		Button.ArmedTextColor			"buttonarmed_fg"
 		Button.ArmedBgColor				"buttonarmed_bg"
-		Button.SelectedTextColor		"TanLight"
+		Button.SelectedTextColor		"buttonarmed_fg"
 		Button.SelectedBgColor			"TFOrange"
 		Button.DepressedTextColor		"Black"
 		Button.DepressedBgColor			"TFOrange"
