@@ -27,7 +27,6 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"		"0"
 		"bgcolor_override"	"0 0 0 252"
 	}
 
@@ -266,7 +265,6 @@
 				"pinCorner"		"3"
 				"visible"		"1"
 				"enabled"		"1"
-				"tabPosition"	"0"
 				"proportionaltoparent"	"1"
 				"textinsetx"	"25"
 				"labelText"		"#QuestDetails_Accept"
@@ -339,7 +337,6 @@
 				"pinCorner"		"3"
 				"visible"		"1"
 				"enabled"		"1"
-				"tabPosition"	"0"
 				"proportionaltoparent"	"1"
 				"textinsetx"	"25"
 				"labelText"		"#QuestDetails_Discard"

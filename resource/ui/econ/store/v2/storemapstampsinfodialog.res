@@ -13,7 +13,6 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"		"0"
 	}
 	
 	// Fullscreen background panel
@@ -150,7 +149,6 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"	"0"
 		"labeltext"		""
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
@@ -194,7 +192,6 @@
 		"autoResize"	"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"	"0"
 		"labelText"		"#TF_BackCarat"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"

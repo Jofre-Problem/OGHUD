@@ -31,7 +31,6 @@
 		"visible"		"1"
 		"visible_minmode"		"0"
 		"enabled"		"1"
-		"tabPosition"	"0"
 		"labelText"		"#TF_Ubercharge"
 		"textAlignment"	"west"
 		"dulltext"		"0"

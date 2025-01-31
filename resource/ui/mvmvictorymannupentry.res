@@ -159,7 +159,6 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"tabPosition"		"0"
 			"PaintBackgroundType"	"0"
 			"bgcolor_override"		"0 0 0 0"
 		}

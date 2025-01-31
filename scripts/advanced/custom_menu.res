@@ -33,7 +33,8 @@
 		sound_depressed			"ui/buttonclick.wav"
 		sound_released			"ui/buttonclickrelease.wav"
 			"border_default"		"SRCBorderConvex"	
-			"fgcolor_override" "HudWhite"
+			"fgcolor_override" "tanlight"
+			"defaultfgcolor_override" "TanLight"
 			"paintbackground"	"0"
 			"paintbackgroundtype"	"2"
 			// "texture2"		"vgui/replay/thumbnails/close"
@@ -178,7 +179,22 @@
 				//	"image"	"replay/thumbnails/panels/blue"
 					"image" "../console/background01"
 				}			
-
+				"LJ2"
+				{
+					"ControlName"		"scalableimagePanel"
+					"fieldName"		"LJ2"
+					"xpos"		"180"
+					"ypos"		"cs-0.5-50"
+					"zpos"		"10"
+					"wide"		"240"
+					"tall"		"o1"
+					"visible"		"1"
+					"enabled"		"1"
+					"scaleImage"	"1"
+					"bgcolor_override"		"blank"
+				//	"image"	"replay/thumbnails/panels/blue"
+					"image" "replay/thumbnails/test"
+				}		
 				"BTN_POSITION:1"			// other classes pinned to this
 				{
 					ControlName				CExButton
@@ -199,7 +215,7 @@
 						"sound_released"	"vo/lj_selected.wav"
 
 
-
+					visible 0
 
 					"ypos"							"112"			
 					labelText				"Servers"
@@ -221,11 +237,11 @@
 					"ControlName"	"CExLabel"
 					"fieldName"		"Hitmarker"
 					"font"			"default"
-					"labelText"		"Hitmarker"
-					"textAlignment"	"west"
-					"xpos"			"c0"
-					"ypos"			"c25"
-					"wide"			"250"
+					"labelText"		"You can find background customizations!"
+					"textAlignment"	"center"
+					"xpos"			"0"
+					"ypos"			"40"
+					"wide"			"580"
 					"tall"			"15"
 					bgcolor_override black
 					fgcolor_override hudwhite
@@ -238,17 +254,36 @@
 					"ControlName"		"imagePanel"
 					"fieldName"		"LJ2"
 					"xpos"		"0"
-					"ypos"		"0"
+					"ypos"		"cs-0.5-50"
 					"zpos"		"-2"
-					"wide"		"580"
-					"tall"		"300"
+					"wide"		"290"
+					"tall"		"o0.7"
 					"visible"		"1"
 					"enabled"		"1"
 					"scaleImage"	"1"
 					"bgcolor_override"		"blank"
 				//	"image"	"replay/thumbnails/panels/blue"
-					"image" "../console/background02"
+					"image" "../console/background01"
+					"border" "Steamworkshopborder"
 				}	
+				"LJ1"
+				{
+					"ControlName"		"imagePanel"
+					"fieldName"		"LJ1"
+					"xpos"		"290"
+					"ypos"		"cs-0.5-50"
+					"zpos"		"-2"
+					"wide"		"290"
+					"tall"		"o0.7"
+					"visible"		"1"
+					"enabled"		"1"
+					"scaleImage"	"1"
+					"bgcolor_override"		"blank"
+				//	"image"	"replay/thumbnails/panels/blue"
+					"image" "../console/background_upward"
+					"border" "Steamworkshopborder"
+				
+				}					
 				"Background"
 				{
 					"wide"		"0"
@@ -305,6 +340,40 @@
 				{
 					"wide"		"0"
 				}
+						"Hitmarker"
+				{
+					"ControlName"	"CExLabel"
+					"fieldName"		"Hitmarker"
+					"font"			"default"
+					"labelText"		"Credits to:"
+					"textAlignment"	"center"
+					"xpos"			"0"
+					"ypos"			"40"
+					"wide"			"580"
+					"tall"			"15"
+					bgcolor_override black
+					fgcolor_override hudwhite
+					visible 1
+					enabled 1
+					zpos 1
+				}		
+						"Hitmarker2"
+				{
+					"ControlName"	"CExLabel"
+					"fieldName"		"Hitmarker2"
+					"font"			"default"
+					"labelText"		"Isolar, Village Green Preserver, Berghoff Gaming 2006, Gyroic, Distant Peak, Detenog, etc."
+					"textAlignment"	"center"
+					"xpos"			"0"
+					"ypos"			"65"
+					"wide"			"580"
+					"tall"			"15"
+					bgcolor_override black
+					fgcolor_override hudwhite
+					visible 1
+					enabled 1
+					zpos 1
+				}								
 		}
 		"3"
 		{

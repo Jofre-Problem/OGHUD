@@ -232,7 +232,6 @@
 		"pinCorner"		"3"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"	"0"
 		"labelText"		"#TF_OK"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"

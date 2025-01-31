@@ -51,7 +51,6 @@
 		"pinCorner"		"3"
 		"visible"		"0"
 		"enabled"		"1"
-		"tabPosition"	"0"
 		"font"			"HudFontSmallBold"
 		"labelText"		"Demo Playback"
 		"textAlignment"	"center"

@@ -12,7 +12,6 @@
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
-		"tabPosition"	"0"
 		"settitlebarvisible"	"0"
 		
 		"PaintBackgroundType"	"2"
@@ -197,7 +196,6 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"	"0"
 		"paintbackground"	"0"
 	}
 }

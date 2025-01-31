@@ -12,7 +12,6 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"	"0"
 		"PaintBackgroundType"	"0"
 		"entry_step"	"30"
 		"proportionaltoparent" "1"

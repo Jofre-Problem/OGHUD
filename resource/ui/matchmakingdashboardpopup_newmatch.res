@@ -121,7 +121,6 @@
 				"autoResize"	"0"
 				"pinCorner"		"3"
 
-				"tabPosition"	"0"
 				"font"			"HudFontSmallestBold"
 				"textAlignment"	"center"
 				"dulltext"		"0"
@@ -164,7 +163,6 @@
 
 				"autoResize"	"0"
 				"pinCorner"		"3"
-				"tabPosition"	"0"
 				"font"			"HudFontSmallestBold"
 				"textAlignment"	"center"
 				"dulltext"		"0"
@@ -202,7 +200,6 @@
 
 				"autoResize"	"0"
 				"pinCorner"		"3"
-				"tabPosition"	"0"
 				"font"			"HudFontSmallestBold"
 				"textAlignment"	"center"
 				"dulltext"		"0"

@@ -1,9 +1,21 @@
 hudanimations_manifest
 {
-	"file"		"scripts/hudanimations_TF2HUD.Fixes-communityFULLFIX.txt"
-	"file"		"scripts/hudanimations.txt"
-	"file"		"scripts/crosshair_animation.txt"
-	"file"		"scripts/advanced/scripts/hudanimations_tf - large uber value.txt"
-	"file"		"scripts/hudanimations_tf - idhud.txt"
-	"file"		"scripts/hudanimations_tf.txt"
+    ////////////////////////////////////////////////////////////////////////////////////////////////////
+    // QoL Scripts
+    ////////////////////////////////////////////////////////////////////////////////////////////////////	
+
+		"file"		"_mainstream/health-fix/file.txt"	
+		"file"		"_mainstream/trade-fix/file.txt"
+		"file"		"_mainstream/mvm-fixer/file.txt"
+
+    ////////////////////////////////////////////////////////////////////////////////////////////////////
+    // OGHUD Scripts
+    ////////////////////////////////////////////////////////////////////////////////////////////////////	
+
+		"file"		"scripts/hudanimations_TF2HUD.Fixes-communityFULLFIX.txt"
+		"file"		"scripts/hudanimations.txt"
+		"file"		"scripts/crosshair_animation.txt"
+		"file"		"scripts/advanced/scripts/hudanimations_tf - large uber value.txt"
+		"file"		"scripts/hudanimations_tf - idhud.txt"
+		"file"		"scripts/hudanimations_tf.txt"
 }

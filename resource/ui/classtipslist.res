@@ -11,7 +11,6 @@
 		"tall"			"30"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"	"0"
 		"labelText"		"Class Tips:"
 		"textAlignment"	"north-west"
 		"dulltext"		"0"
@@ -34,7 +33,6 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"	"0"
 		"bgcolor_override"		"0 0 0 0"
 	}
 }

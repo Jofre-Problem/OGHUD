@@ -37,7 +37,6 @@
 			"pinCorner"		"1"
 			"visible"		"1"
 			"enabled"		"1"
-			"tabPosition"	"0"
 			//"labelText"		"#GameUI_GameMenu_Options"
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"west"

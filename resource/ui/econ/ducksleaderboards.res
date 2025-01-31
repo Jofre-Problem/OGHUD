@@ -86,7 +86,6 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"tabPosition"	"0"
 			"border"		"MainMenuBGBorder"
 			"PaintBackgroundType"	"2"
 
@@ -120,7 +119,6 @@
 				"pinCorner"		"0"
 				"visible"		"1"
 				"enabled"		"1"
-				"tabPosition"	"0"
 				"PaintBackgroundType"	"2"
 				"proportionaltoparent"	"1"
 				"mouseinputenabled"		"1"
@@ -193,7 +191,6 @@
 					"pinCorner"		"0"
 					"visible"		"1"
 					"enabled"		"1"
-					"tabPosition"	"0"
 					"proportionaltoparent"	"1"
 				}
 			}
@@ -231,7 +228,6 @@
 				"pinCorner"		"0"
 				"visible"		"1"
 				"enabled"		"1"
-				"tabPosition"	"0"
 				"labeltext"		""
 				"font"			"HudFontSmallBold"
 				"textAlignment"	"center"
@@ -281,7 +277,6 @@
 				"pinCorner"		"0"
 				"visible"		"1"
 				"enabled"		"1"
-				"tabPosition"	"0"
 				"labeltext"		""
 				"font"			"HudFontSmallBold"
 				"textAlignment"	"center"
@@ -332,7 +327,6 @@
 				"pinCorner"		"0"
 				"visible"		"1"
 				"enabled"		"1"
-				"tabPosition"	"0"
 				"labeltext"		""
 				"font"			"HudFontSmallBold"
 				"textAlignment"	"center"
@@ -420,7 +414,6 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"		"0"
 		"bgcolor_override"	"0 0 0 252"
 	}
 
@@ -437,7 +430,6 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"		"0"
 		"labelText"			""
 		"bgcolor_override"	"0 0 0 220"
 		"command"	"close"

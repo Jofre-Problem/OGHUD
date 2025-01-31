@@ -12,7 +12,6 @@
 		"pinCorner"				"0"
 		"visible"				"1"
 		"enabled"				"1"
-		"tabPosition"			"0"
 		"settitlebarvisible"	"0"
 	}
 	
@@ -77,7 +76,6 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"		"0"
 		"paintborder"	"0"
 	}
 	
@@ -94,7 +92,6 @@
 		"pinCorner"		"2"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"		"0"
 		"labelText"		"#TF_Continue"
 		"textAlignment"		"center"
 		"dulltext"		"0"
@@ -150,7 +147,6 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"	"0"	
 		"image"			"loadout_bottom_gradient"
 		"tileImage"		"1"
 		"PaintBackgroundType"	"0"

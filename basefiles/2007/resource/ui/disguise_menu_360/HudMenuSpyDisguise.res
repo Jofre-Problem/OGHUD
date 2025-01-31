@@ -26,7 +26,6 @@
 		"zpos"			"3"
 		"wide"			"300"
 		"tall"			"45"
-		"tall_lodef"	"46"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -47,7 +46,6 @@
 		"ypos"			"2"
 		"zpos"			"3"
 		"wide"			"300"
-		"tall_lodef"	"46"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -71,7 +69,6 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"	"0"	
 		"fillcolor"		"0 0 0 150"
 		"PaintBackgroundType"	"0"
 	}
@@ -452,7 +449,6 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"	"0"	
 		"fillcolor"		"0 0 0 190"
 		"PaintBackgroundType"	"0"
 	}

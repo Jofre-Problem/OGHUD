@@ -109,7 +109,6 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"tabPosition"	"0"
 			"labelText"		"#TF_MvM_MannUp"
 			"font"			"SRCLabel"
 			"textAlignment"	"west"
@@ -141,7 +140,6 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"tabPosition"	"0"
 			"border"	"SRCBorderConvex"
 		}
 
@@ -243,7 +241,6 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"tabPosition"	"0"
 			"labelText"		"#TF_MvM_BootCamp"
 			"font"			"SRCLabel"
 			"textAlignment"	"west"
@@ -275,7 +272,6 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"tabPosition"	"0"
 			"border"	"SRCBorderConvex"
 		}
 

@@ -17,9 +17,7 @@
 		"scaleImage"		"1"
 		"teambg_1"		"../hud/freezecam_black_bg"
 		"teambg_2"		"../hud/freezecam_red_bg"
-		"teambg_2_lodef"	"../hud/freezecam_red_bg_lodef"
 		"teambg_3"		"../hud/freezecam_blue_bg"
-		"teambg_3_lodef"	"../hud/freezecam_blue_bg_lodef"
 	}
 	"TargetNameLabel"
 	{	
@@ -54,7 +52,6 @@
 		"ypos"			"24"	[$WIN32]
 		"ypos_minmode"	"12"	[$WIN32]
 		"ypos"			"22"	[$X360]
-		"ypos_hidef"		"25"	[$X360]
 		"zpos"			"1"
 		"wide"			"280"
 		"tall"			"15"

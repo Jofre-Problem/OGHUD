@@ -12,7 +12,6 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"	"0"
 	}
 	
 	"Background"
@@ -279,7 +278,6 @@
 					"visible"		"1"
 					"enabled"		"1"
 					"labelText"		"#Building_hud_tele_times_used"
-					"labelText_lodef"		"#Building_hud_tele_times_used_360"
 					"textAlignment"	"Left"
 					"dulltext"		"0"
 					"brighttext"	"0"

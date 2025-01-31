@@ -1,0 +1,40 @@
+[BG:#35302C]
+Window();
+[Border:0, FG:#35302C]
+Banner("_4plug/thumbnailBanner.png", "auto", "topleft");
+
+[Name:UI Sound Effects, Default:Lower, FG:#7A5EF8, BG:#F4F4F5, Border:0]
+GlobalComboBox("UI Sound Effects", "UI Sound Effects")
+{
+	TF2
+	Half-Life
+}
+[Name:Background, Default:Lower, FG:#7A5EF8, BG:#F4F4F5, Border:0]
+GlobalComboBox("Background", "Background")
+{
+	Background01
+	BluOne
+}
+
+#if Background == "Background01"
+{
+Copy("_4plug/files/bg/default.txt", "scripts/chapterbackgrounds.txt");
+}
+
+#if Background == "BluOne"
+{
+Copy("_4plug/files/bg/upward.txt", "scripts/chapterbackgrounds.txt");
+}
+
+#if UI Sound Effects == "TF2"
+{
+Copy("_4plug/files/tf2ui/buttonclick.wav", "sound/ui/buttonclick.wav");
+Copy("_4plug/files/tf2ui/buttonclickrelease.wav", "sound/ui/buttonclickrelease.wav");
+Copy("_4plug/files/tf2ui/buttonrollover.wav", "sound/ui/buttonrollover.wav");
+}
+#if UI Sound Effects == "Half-Life"
+{
+Copy("_4plug/files/hl2/buttonclick.wav", "sound/ui/buttonclick.wav");
+Copy("_4plug/files/hl2/buttonclickrelease.wav", "sound/ui/buttonclickrelease.wav");
+Copy("_4plug/files/hl2/buttonrollover.wav", "sound/ui/buttonrollover.wav");
+}

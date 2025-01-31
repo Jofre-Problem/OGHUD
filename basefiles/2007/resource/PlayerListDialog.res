@@ -12,7 +12,6 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"		"0"
 		"settitlebarvisible"		"1"
 	}
 	"MuteButton"
@@ -27,7 +26,6 @@
 		"pinCorner"		"2"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"		"3"
 		"labelText"		"#GameUI_MuteIngameVoice"
 		"textAlignment"		"west"
 		"dulltext"		"0"
@@ -47,7 +45,6 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"		"1"
 	}
 	"Button1"
 	{
@@ -61,7 +58,6 @@
 		"pinCorner"		"3"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"		"4"
 		"labelText"		"#GameUI_Close"
 		"textAlignment"		"west"
 		"dulltext"		"0"

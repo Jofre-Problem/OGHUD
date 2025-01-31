@@ -14,7 +14,6 @@
 			{
 				"name"				"TF2 Build"
 				"tall"				"44"
-				"tall_lodef"		"52"
 				"weight"			"500"
 				"additive"			"0"
 				"antialias"			"1"
@@ -37,8 +36,6 @@
 			{
 				"name"				"TF2"
 				"tall"				"18"
-				"tall_hidef"		"24"
-				"tall_lodef"		"18"
 				"weight"			"500"
 				"additive"			"0"
 				"antialias"			"1"
@@ -50,7 +47,6 @@
 			{
 				"name"				"TF2"
 				"tall"				"24"
-				"tall_lodef"		"28"
 				"weight"			"500"
 				"additive"			"0"
 				"antialias"			"1"
@@ -62,7 +58,6 @@
 			{
 				"name"				"TF2 Secondary"
 				"tall"				"14"
-				"tall_lodef"		"16"
 				"weight"			"500"
 				"additive"			"0"
 				"antialias"			"1"

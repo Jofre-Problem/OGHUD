@@ -12,7 +12,6 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"		"0"
 	}
 	"SysMenu"
 	{
@@ -26,7 +25,6 @@
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
-		"tabPosition"		"0"
 	}
 	"InfoLabel"
 	{
@@ -40,7 +38,6 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"		"0"
 		"labelText"		"#GameUI_ParseBaseline"
 		"textAlignment"		"west"
 		"dulltext"		"1"
@@ -58,7 +55,6 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"		"0"
 	}
 	"CancelButton"
 	{
@@ -72,7 +68,6 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"		"0"
 		"labelText"		"#GameUI_Cancel"
 		"textAlignment"		"west"
 		"dulltext"		"0"
@@ -92,7 +87,6 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"		"0"
 	}
 	"Label1"
 	{
@@ -106,7 +100,6 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"		"0"
 		"labelText"		"#GameUI_LoadingDialog_ContentHosting"
 		"textAlignment"		"west"
 		"dulltext"		"1"
@@ -124,6 +117,5 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"		"0"
 	}
 }

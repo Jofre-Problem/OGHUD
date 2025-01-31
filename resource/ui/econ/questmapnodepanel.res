@@ -9,7 +9,6 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"	"0"
 		"PaintBackgroundType"	"0"
 		"paintbackground"		"0"
 
@@ -142,7 +141,6 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"tabPosition"	"0"
 			"proportionaltoparent"	"1"
 			"autoResize"	"3"
 			"paintbackground" "0"		
@@ -161,7 +159,6 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"tabPosition"	"0"
 			"labeltext"		""
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"

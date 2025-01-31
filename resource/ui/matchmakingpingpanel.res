@@ -353,7 +353,6 @@
 		"RoundedCorners"		"15"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"		"0"
 		"proportionaltoparent"	"1"
 		"font"			"SRCTitleAA"
 
@@ -378,7 +377,6 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"	"0"
 		"proportionaltoparent"	"1"
 		
 		"pin_to_sibling"		"BG"

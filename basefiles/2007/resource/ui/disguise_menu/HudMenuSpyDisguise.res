@@ -125,7 +125,6 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"	"0"	
 		"fillcolor"		"0 0 0 150"
 		"PaintBackgroundType"	"0"
 	}

@@ -133,7 +133,6 @@
 				"antialias"			"1"
 				"name"				"Segoe UI" [$WINDOWS]
 				"name"				"Helvetica" [$POSIX]
-				"weight_lodef"		"600"
 			}
 		}
 		"HudFontMediumBigBold2"

@@ -118,7 +118,6 @@
 			"pinCorner"		"0"
 			"visible"		"0"
 			"enabled"		"1"
-			"tabPosition"		"0"
 			"bgcolor_override"	"255 255 255 252"
 			"proportionaltoparent"	"1"
 		}
@@ -158,7 +157,6 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"tabPosition"	"0"
 			"labeltext"		""
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
@@ -230,7 +228,6 @@
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
-		"tabPosition"		"0"
 		"bgcolor_override"	"0 0 0 0"
 		"proportionaltoparent"	"1"
 
@@ -301,7 +298,6 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"tabPosition"		"0"
 			"bgcolor_override"	"235 226 202 255" // tanlight
 			"proportionaltoparent"	"1"
 
@@ -381,7 +377,6 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"tabPosition"		"0"
 			"bgcolor_override"	"235 226 202 255" // tanlight
 			"proportionaltoparent"	"1"
 

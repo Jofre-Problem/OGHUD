@@ -19,6 +19,17 @@
         	"paintbackground"    "1"
     	}
 	}	
+	HudInspectPanel
+	{
+		"fieldName"				"HudInspectPanel"
+		"visible"				"0"
+		"enabled"				"1"
+		"xpos"					"r300" //r200
+		"ypos"					"rs1"
+		"zpos"					"10"
+		"wide"					"300" //190
+		"tall"					"f0"
+	}	
 	"MMDashBoardPopupContainer"
 	{
 		"fieldname"        "MMDashBoardPopupContainer"
@@ -99,7 +110,6 @@
 		"enabled"			"1"
 		"xpos"				"c-125"
 		"ypos"				"5"
-		"ypos_lodef"		"75"
 		"zpos"				"2"
 		"wide"				"250"
 		"tall"				"80"
@@ -111,7 +121,6 @@
 		"enabled"			"1"
 		"xpos"				"c-90"
 		"ypos"				"-70"
-		"ypos_lodef"		"75"
 		"wide"				"180"
 		"tall"				"65"
 	}

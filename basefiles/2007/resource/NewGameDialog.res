@@ -12,7 +12,6 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"		"0"
 		"settitlebarvisible"		"1"	
 		"title"		"#GameUI_NewGame"
 	}
@@ -28,7 +27,6 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"		"4"
 		"labelText"		"#GameUI_Next"
 		"textAlignment"		"west"
 		"dulltext"		"0"
@@ -49,7 +47,6 @@
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
-		"tabPosition"		"3"
 		"labelText"		"#GameUI_Prev"
 		"textAlignment"		"west"
 		"dulltext"		"0"
@@ -70,7 +67,6 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"		"1"
 		"labelText"		"#GameUI_Start"
 		"textAlignment"		"west"
 		"dulltext"		"0"
@@ -91,7 +87,6 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"		"2"
 		"labelText"		"#GameUI_Cancel"
 		"textAlignment"		"west"
 		"dulltext"		"0"
@@ -112,7 +107,6 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"		"0"
 	}
 	"Div"	
 	{
@@ -126,7 +120,6 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"		"0"
 	}
 }
 
@@ -148,7 +141,6 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"		"0"
 		"settitlebarvisible"		"0"
 		"title"		"#GameUI_NewGame"
 		"paintbackground"	"1"
