@@ -400,7 +400,6 @@
 		"zpos"			"4"
 		"wide"			"f0"
 		"tall"			"50"
-"65"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"

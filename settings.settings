@@ -38,7 +38,7 @@ Menu Timer|Enabled (00-00-00)
 Class Model Background|Disabled
 Close Caption Style|Magnum
 Hitmarkers|OFF (Default)
-UI Sound Effects|Half-Life
+UI Sound Effects|TF2
 Sound Manifest|Default
 Surface Manifest|Default
 Particle Manifest|Default
@@ -54,3 +54,4 @@ sourcescheme Color|Def
 Loading Icon|Def
 Loading Background|Def
 HudMatchStatus|Def
+Background|Background01

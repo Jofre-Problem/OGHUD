@@ -16,16 +16,28 @@
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"MainBackground"
-		"xpos"			"0"
+		"xpos"			"9990"
 		"ypos"			"0"
-		"wide"			"f0"
-		"tall"			"480"
+		"wide"			"0"
+		"tall"			"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			""
 		"scaleImage"		"1"
 	}		
-
+		"Background2"
+		{
+			"ControlName"	"scalableImagePanel"
+			"fieldName"		"Background2"
+			"xpos"			"0"
+			"ypos"			"0"
+			"wide"			"f0"
+			"tall"			"480"
+			"visible"		"1"
+			"enabled"		"1"
+			"image"			"../console/background01_widescreen"
+			"scaleImage"		"1"
+		}
 	"MapInfo"
 	{
 		"ControlName"	"EditablePanel"
@@ -38,24 +50,24 @@
 		"enabled"	"1"
 		"bgcolor_override"	"46 43 42 255"
 	
-		"Background"
+		"Background2"
 		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"Background"
+			"ControlName"	"scalableImagePanel"
+			"fieldName"		"Background2"
 			"xpos"			"0"
 			"ypos"			"0"
-			"wide"			"640"
+			"wide"			"f0"
 			"tall"			"480"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"../console/background01"
+			"image"			"../console/background01_widescreen"
 			"scaleImage"		"1"
 		}
 		"MapImage"
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"MapImage"
-			"xpos"			"0"
+			"xpos"			"9990"
 			"ypos"			"0"
 			"zpos"			"2"
 			"wide"			"0"
@@ -2143,44 +2155,5 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"Command"		"vguicancel"
-	}
-	"Footer" [$X360]
-	{
-		"ControlName"		"CTFFooter"
-		"fieldName"			"Footer"
-		"bgcolor"			"TanDarker"
-		"paintbackground"	"1"
-		"tall"				"100"
-		"center"			"1"
-		"buttonoffsety"		"20"
-		"button_separator"	"10"
-		"fonttext"			"MatchmakingDialogMenuLarge"
-		"buttongap"			"50"
-		"textadjust"		"3"
-		"zpos"				"6"
-		"fgcolor"			"HudOffWhite" 	
-		
-		"button"
-		{
-			"name"		"back"
-			"text"		"#GameUI_Back"
-			"icon"		"#GameUI_Icons_B_BUTTON"	
-		}
-		
-		"button"
-		{
-			"name"		"nexttip"
-			"text"		"#TF_NextTip_360"
-			"icon"		"#GameUI_Icons_A_BUTTON"	
-		}
-	}		
-	"TitleBanner" [$X360]
-	{
-		"ControlName"	"ImagePanel"
-		"xpos"			"0"
-		"ypos"			"0"
-		"wide"			"f0"
-		"tall"			"128"
-		"image"			"menu_header"
 	}
 }

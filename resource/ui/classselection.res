@@ -801,7 +801,6 @@
 		"zpos"			"5"
 		"wide"			"f0"
 		"tall"			"50"
-"65"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -810,41 +809,7 @@
 		"PaintBackgroundType"	"0"
 	}
 	
-	"Footer" [$X360]
-	{
-		"ControlName"		"CTFFooter"
-		"fieldName"			"Footer"
-		"zpos"				"6"
-		"tall"				"80"
-		"button_separator"	"10"
-		"buttongap"			"50"
-		"textadjust"		"3"
-		"buttonoffsety"		"20"
-		"center"			"0"
-		"fonttext"			"MatchmakingDialogMenuLarge"
-		"fgcolor"			"HudOffWhite" 	
-		
-		"button"
-		{
-			"name"		"cancel"
-			"text"		"#GameUI_Cancel"
-			"icon"		"#GameUI_Icons_B_BUTTON"	
-		}
-		
-		"button"
-		{
-			"name"		"nextprev"
-			"text"		"#TF_NextPrev"
-			"icon"		"#GameUI_Icons_DPAD"	
-		}				
-		
-		"button"
-		{
-			"name"		"select"
-			"text"		"#GameUI_Select"
-			"icon"		"#GameUI_Icons_A_BUTTON"	
-		}
-	}
+
 	
 	"localPlayerImage" [$WIN32]
 	{

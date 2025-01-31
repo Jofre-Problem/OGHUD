@@ -162,43 +162,4 @@
 		"brighttext"	"0"
 		"Command"		"vguicancel"
 	}
-	"Footer" [$X360]
-	{
-		"ControlName"		"CTFFooter"
-		"fieldName"			"Footer"
-		"bgcolor"			"TanDarker"
-		"paintbackground"	"1"
-		"tall"				"100"
-		"center"			"1"
-		"buttonoffsety"		"20"
-		"button_separator"	"10"
-		"fonttext"			"MatchmakingDialogMenuLarge"
-		"buttongap"			"50"
-		"textadjust"		"3"
-		"zpos"				"6"
-		"fgcolor"			"HudOffWhite" 	
-		
-		"button"
-		{
-			"name"		"back"
-			"text"		"#GameUI_Back"
-			"icon"		"#GameUI_Icons_B_BUTTON"	
-		}
-		
-		"button"
-		{
-			"name"		"nexttip"
-			"text"		"#TF_NextTip_360"
-			"icon"		"#GameUI_Icons_A_BUTTON"	
-		}
-	}		
-	"TitleBanner" [$X360]
-	{
-		"ControlName"	"ImagePanel"
-		"xpos"			"0"
-		"ypos"			"0"
-		"wide"			"f0"
-		"tall"			"128"
-		"image"			"menu_header"
-	}
 }

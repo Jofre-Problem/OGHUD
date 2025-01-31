@@ -349,6 +349,7 @@ Scheme
 			{
 				"name"			"TF2 Secondary"
 				"tall"			"14"
+				"tall_lodef"	"16"
 				"weight"		"500"
 				"additive"		"0"
 				"antialias" 	"1"
@@ -361,6 +362,7 @@ Scheme
 			{
 				"name"			"TF2"
 				"tall"			"24"
+				"tall_lodef"	"28"
 				"weight"		"500"
 				"additive"		"0"
 				"antialias" 	"1"
@@ -373,7 +375,8 @@ Scheme
 			{
 				"name"		"TF2 Secondary"
 				"tall"		"18"
-"24"
+				"tall_hidef"	"24"
+				"tall_lodef"	"20"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -386,7 +389,8 @@ Scheme
 			{
 				"name"		"TF2 Secondary"
 				"tall"		"18"
-"24"
+				"tall_hidef"	"24"
+				"tall_lodef"	"20"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -399,6 +403,7 @@ Scheme
 			{
 				"name"		"TF2 Build"
 				"tall"		"44"
+				"tall_lodef"	"52"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -411,6 +416,7 @@ Scheme
 			{
 				"name"		"TF2 Build"
 				"tall"		"44"
+				"tall_lodef"	"52"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -447,6 +453,7 @@ Scheme
 			{
 				"name"		"TF2 Build"
 				"tall"		"35"
+				"tall_lodef"	"40"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -495,7 +502,8 @@ Scheme
 			{
 				"name"		"Verdana"
 				"tall"		"8"
-"9"
+				"tall_hidef"	"9"
+				"tall_lodef"	"10"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -508,7 +516,7 @@ Scheme
 			{
 				"name"		"Verdana"
 				"tall"		"8"
-"7"
+				"tall_hidef"	"7"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -521,7 +529,7 @@ Scheme
 			{
 				"name"		"Tahoma"
 				"tall"		"24"
-"32"
+				"tall_hidef"	"32"
 				"weight"	"500"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 			}
@@ -532,7 +540,7 @@ Scheme
 			{
 				"name"		"Tahoma"
 				"tall"		"24"
-"32"
+				"tall_hidef"	"32"
 				"weight"	"500"
 				"italic"	"1"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -544,7 +552,7 @@ Scheme
 			{
 				"name"		"Tahoma"
 				"tall"		"24"
-"32"
+				"tall_hidef"	"32"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 			}
@@ -555,7 +563,7 @@ Scheme
 			{
 				"name"		"Tahoma"
 				"tall"		"24"
-"32"
+				"tall_hidef"	"32"
 				"weight"	"900"
 				"italic"	"1"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -567,7 +575,7 @@ Scheme
 			{
 				"name"		"Tahoma"
 				"tall"		"16"
-"24"
+				"tall_hidef"	"24"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 			}

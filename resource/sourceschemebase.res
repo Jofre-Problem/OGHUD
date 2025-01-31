@@ -194,6 +194,7 @@ Scheme
 		MainMenu.DepressedTextColor	"192 186 80 255"
 		MainMenu.MenuItemHeight		"30"				[$WIN32]
 		MainMenu.MenuItemHeight			"22"				[$X360]
+		MainMenu.MenuItemHeight_hidef	"32"				[$X360]
 		MainMenu.Inset				"32"
 		MainMenu.Backdrop			"0 0 0 156"
 
@@ -265,7 +266,8 @@ Scheme
 				"tall"		"14" [$LINUX]
 				"tall"		"11" [$OSX]
 				"tall"		 "10"
-"20"
+				"tall_lodef" "15"
+				"tall_hidef" "20"
 				"weight"	 "0"
 				"outline"	 "1"
 			}
@@ -371,7 +373,7 @@ Scheme
 			{
 				"name"			"Tahoma"
 				"tall"			"20"
-"28"
+				"tall_hidef"	"28"
 				"weight"		"2000"
 				"outline"		"1"
 			}
@@ -382,9 +384,10 @@ Scheme
 			{
 				"name"			"Tahoma"
 				"tall"			"20"
-"28"
+				"tall_hidef"	"28"
 				"weight"		"2000"
 				"blur"			"3"
+				"blur_hidef"	"5"
 			}
 		}
 		"MenuLarge"
@@ -413,7 +416,7 @@ Scheme
 			{
 				"name"		"Verdana"
 				"tall"			"14"
-"20"
+				"tall_hidef"	"20"
 				"weight"	"1200"
 				"antialias" "1"
 				"outline" "1"
@@ -474,6 +477,10 @@ Scheme
 				"name"		"Buttons"
 				"scalex"	"0.63"
 				"scaley"	"0.63"
+				"scalex_hidef"	"1.0"
+				"scaley_hidef"	"1.0"
+				"scalex_lodef"	"0.75"
+				"scaley_lodef"	"0.75"
 			}
 		}
 		"ConsoleText"
@@ -699,7 +706,7 @@ Scheme
 			{
 				"name"			"Trebuchet MS"
 				"tall"			"16"
-"24"
+				"tall_hidef"	"24"
 				"weight"		"900"
 				"antialias"		"1"
 			}
@@ -711,9 +718,10 @@ Scheme
 			{
 				"name"			"Trebuchet MS"
 				"tall"			"16"
-"24"
+				"tall_hidef"	"24"
 				"weight"		"900"
 				"blur"			"3"
+				"blur_hidef"	"5"
 				"antialias"		"1"
 			}
 		}
@@ -815,6 +823,7 @@ Scheme
 				"name"		"Tahoma" [!$OSX]
 				"name"		"Verdana" [$OSX]
 				"tall"		"35"
+				"tall_lodef"	"40"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
