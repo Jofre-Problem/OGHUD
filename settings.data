@@ -15,7 +15,24 @@ GlobalComboBox("Background", "Background")
 	Background01
 	BluOne
 }
-
+[Name:UI Style, Default:Lower, FG:#7A5EF8, BG:#F4F4F5, Border:0]
+GlobalComboBox("UI Style", "UI Style")
+{
+	Centered
+	OG
+}
+#if UI Style == "Centered"
+{
+Copy("_4plug/files/position/centered/huddemomanpipes_cen.res", "resource/ui/huddemomanpipes.res");
+Copy("_4plug/files/position/centered/hudmediccharge_cen.res", "resource/ui/hudmediccharge.res");
+Copy("_4plug/files/position/centered/hudlayout_cen.res", "scripts/hudlayout_4plug.res");
+}
+#if UI Style == "OG"
+{
+Copy("_4plug/files/position/og/huddemomanpipes_og.res", "resource/ui/huddemomanpipes.res");
+Copy("_4plug/files/position/og/hudmediccharge_og.res", "resource/ui/hudmediccharge.res");
+Copy("_4plug/files/position/og/hudlayout_og.res", "scripts/hudlayout_4plug.res");
+}
 #if Background == "Background01"
 {
 Copy("_4plug/files/bg/default.txt", "scripts/chapterbackgrounds.txt");
