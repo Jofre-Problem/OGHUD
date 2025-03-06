@@ -20,6 +20,7 @@
 		"wide"			"100"
 		"tall"			"50"
 	}	
+
 	HudDemomanPipes
 	{
 		"fieldName"		"HudDemomanPipes"

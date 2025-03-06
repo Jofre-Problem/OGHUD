@@ -21,6 +21,24 @@ GlobalComboBox("UI Style", "UI Style")
 	Centered
 	OG
 }
+[Name:TargetID, Default:Lower, FG:#7A5EF8, BG:#F4F4F5, Border:0]
+GlobalComboBox("TargetID", "TargetID")
+{
+	Default
+	2007
+}
+#if TargetID == "Default"
+{
+Copy("_4plug/files/targetid/targetid_current.res", "resource/ui/targetid.res");
+Copy("_4plug/files/targetid/spectatorguihealth_current.res", "resource/ui/spectatorguihealth.res");
+Copy("_4plug/files/targetid/layout_c.res", "scripts/hudlayout_4plug_2.res");
+}
+#if TargetID == "2007"
+{
+Copy("_4plug/files/targetid/targetid_2007.res", "resource/ui/targetid.res");
+Copy("_4plug/files/targetid/spectatorguihealth_2007.res", "resource/ui/spectatorguihealth.res");
+Copy("_4plug/files/targetid/layout_2007.res", "scripts/hudlayout_4plug_2.res");
+}
 #if UI Style == "Centered"
 {
 Copy("_4plug/files/position/centered/huddemomanpipes_cen.res", "resource/ui/huddemomanpipes.res");

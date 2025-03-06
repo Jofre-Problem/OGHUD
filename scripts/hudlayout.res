@@ -1,4 +1,5 @@
 #base "hudlayout_4plug.res"
+#base "hudlayout_4plug_2.res"
 #base "../resource/ui/custom/damageindicator.res"
 #base "../resource/ui/custom/killfeed.res"
 #base "../resource/ui/custom/closecaptions.res"
