@@ -1,7 +1,7 @@
 ADDON Transparent|Off
 Steam Summer Sale Border|Disabled
 CFG Advanced Scoreboard|Disabled
-UI Style|Default
+UI Style|Centered
 ADDON Transparent Class Model|Off
 UI Health Cross|Disabled
 UI Circular Uber Charge|Disabled
@@ -55,3 +55,4 @@ Loading Icon|Def
 Loading Background|Def
 HudMatchStatus|Def
 Background|Background01
+TargetID|Default

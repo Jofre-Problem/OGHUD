@@ -1,13 +1,14 @@
+#base "hudlayout_4plug.res"
+#base "hudlayout_4plug_2.res"
 #base "../resource/ui/custom/damageindicator.res"
 #base "../resource/ui/custom/killfeed.res"
 #base "../resource/ui/custom/closecaptions.res"
 #base "../resource/ui/custom/crosshair.res"
 #base "../resource/ui/custom/master_hitmarkers.res"
-
-#base "base/hudlayout.res"
-"#base"		"../basefiles/hudlayout.res"
+#base "../basefiles/hudlayout.res"
 "Resource/HudLayout.res"
 {
+
 	MainMenuOverride
 	{
 		"ControlName"	"CHudMainMenuOverride"
@@ -76,16 +77,7 @@
 		"fgcolor"	"0 0 0 255"
 	}
 	
-	"HudMedicCharge"
-	{
-		"fieldName"		"HudMedicCharge"
-		"visible"		"1"
-		"enabled"		"1"
-		"xpos"			"c-20"
-		"ypos"			"c10"
-		"wide"			"f0"
-		"tall"			"480"
-	}
+
 	"HudDeathNotice"
 	{
 		"MaxDeathNotices"		"6"
