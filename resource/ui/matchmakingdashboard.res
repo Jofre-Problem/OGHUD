@@ -106,10 +106,10 @@
 			"keyboardinputenabled"	"0"
 			"actionsignallevel"	"2"
 			"roundedcorners"	"0"
-
+			"selectedbgcolor_override" "blank"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-
+"paintBackground" 0
 			"image_drawcolor"	"TanLight"
 			"image_armedcolor"	"TanLight"
 
